@@ -5,6 +5,7 @@ import { ProductCard } from "@/components/product";
 import { Button } from "@/components/ui";
 import { getAllProducts } from "@/data/products";
 import { formatCurrency } from "@/lib/iva";
+import { HeroParallax } from "@/components/HeroParallax";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -89,68 +90,18 @@ export default async function HomePage() {
   return (
     <>
       {/* ─── HERO ─── */}
-      <section className="relative h-[92dvh] min-h-[650px] max-h-[1100px] overflow-hidden">
-        <Image
-          src="/images/heritage/colosseo-hero.webp"
-          alt="MPV Italia — Luxury Pet Furniture"
-          fill
-          sizes="100vw"
-          className="object-cover scale-105"
-          style={{ objectPosition: "50% 35%" }}
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0D0B09]/90 via-[#0D0B09]/45 to-[#0D0B09]/10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0D0B09]/70 via-transparent to-[#0D0B09]/25" />
-        <div className="absolute inset-0 hero-vignette" />
-        <div className="absolute inset-0 opacity-[0.04]" style={{
-          background: "radial-gradient(ellipse at 15% 60%, var(--brand-gold) 0%, transparent 50%)"
-        }} />
-
-        <div className="absolute inset-0 flex items-end pb-16 sm:pb-20 lg:pb-28">
-          <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 w-full">
-            <div className="max-w-2xl">
-              <div className="reveal">
-                <p className="overline text-[var(--brand-gold)] mb-5 flex items-center gap-3">
-                  <span className="w-8 h-px bg-[var(--brand-gold)]/60" />
-                  {t("hero.overline")}
-                </p>
-              </div>
-              <h1 className="display-heading text-white mb-6 reveal" style={{ transitionDelay: "150ms" }}>
-                {t("hero.title1")}
-                <br />
-                <span className="accent-text text-[var(--brand-gold-light)]">{t("hero.title2")}</span>
-                <br />
-                {t("hero.title3")}
-              </h1>
-              <p className="text-[var(--neutral-300)] text-base sm:text-lg mb-10 max-w-md font-light leading-relaxed reveal" style={{ transitionDelay: "300ms" }}>
-                {t("hero.subtitle")}
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 reveal" style={{ transitionDelay: "450ms" }}>
-                <Button
-                  href="/prodotti"
-                  size="lg"
-                  className="btn-luxury bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] tracking-wide"
-                >
-                  {t("hero.ctaPrimary")}
-                </Button>
-                <Button
-                  href="/prodotti/sofa-negro"
-                  variant="outline"
-                  size="lg"
-                  className="border-white/20 text-white/90 hover:bg-white/8 hover:border-white/40 tracking-wide"
-                >
-                  {t("hero.ctaSecondary")}
-                </Button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 reveal" style={{ transitionDelay: "600ms" }}>
-          <span className="text-white/30 text-[0.7rem] uppercase tracking-[0.35em] font-medium">{t("hero.scroll")}</span>
-          <div className="w-px h-8 bg-gradient-to-b from-white/30 to-transparent animate-pulse" />
-        </div>
-      </section>
+      <HeroParallax
+        imageSrc="/images/heritage/colosseo-hero.webp"
+        imageAlt="MPV Italia — Luxury Pet Furniture"
+        overline={t("hero.overline")}
+        title1={t("hero.title1")}
+        title2={t("hero.title2")}
+        title3={t("hero.title3")}
+        subtitle={t("hero.subtitle")}
+        ctaPrimary={t("hero.ctaPrimary")}
+        ctaSecondary={t("hero.ctaSecondary")}
+        scrollLabel={t("hero.scroll")}
+      />
 
       {/* ─── TRUST RIBBON ─── */}
       <section className="bg-[var(--surface)] border-b border-[var(--border)]">
@@ -244,6 +195,7 @@ export default async function HomePage() {
                 color={product.color}
                 stockStatus={product.stock_status}
                 priority={index === 0}
+                index={index}
                 stockLabel={prodT(`stock.${product.stock_status}`)}
                 ctaLabel={commonT("scopri")}
                 ivaLabel={commonT("ivaIncluded")}
@@ -368,7 +320,7 @@ export default async function HomePage() {
 
             <div className="lg:col-span-7 space-y-6 lg:space-y-8">
               <div className="reveal-right mb-4">
-                <p className="overline mb-3">{t("lifestyle.title")}</p>
+                <p className="overline mb-3">{t("lifestyle.overline") || t("lifestyle.title")}</p>
                 <h3 className="font-serif text-2xl sm:text-3xl font-normal leading-snug">
                   {t("lifestyle.title")}
                   <br />
@@ -417,7 +369,7 @@ export default async function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10 reveal-stagger">
             {testimonials.map((testimonial, i) => (
-              <div key={i} className="border-luxury p-8 lg:p-10 bg-[var(--brand-cream)]/30 luxury-card">
+              <div key={i} className="border-luxury p-8 lg:p-10 bg-[var(--brand-cream)]/30 luxury-card editorial-frame transition-all duration-500 hover:border-[var(--brand-gold)]/40 hover:shadow-[0_0_30px_rgba(201,169,110,0.08)]">
                 <div className="flex gap-1 mb-6">
                   {Array.from({ length: testimonial.stars }).map((_, s) => (
                     <svg key={s} className="w-3.5 h-3.5 text-[var(--brand-gold)]" fill="currentColor" viewBox="0 0 20 20">

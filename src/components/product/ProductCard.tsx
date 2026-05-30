@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { formatCurrency } from "@/lib/iva";
 
 interface ProductCardProps {
@@ -14,6 +14,8 @@ interface ProductCardProps {
   stockLabel?: string;
   ctaLabel?: string;
   ivaLabel?: string;
+  /** Index for decorative number (1-based) */
+  index?: number;
 }
 
 const defaultStockLabels: Record<string, { label: string; className: string }> = {
@@ -42,12 +44,16 @@ export function ProductCard({
   stockLabel,
   ctaLabel = "Scopri",
   ivaLabel = "IVA inclusa",
+  index,
 }: ProductCardProps) {
   const defaultStock = defaultStockLabels[stockStatus] || defaultStockLabels.esaurito;
   const stock = {
     label: stockLabel || defaultStock.label,
     className: defaultStock.className,
   };
+
+  // Numero decorativo formattato (01, 02, 03…)
+  const decoNum = index !== undefined ? String(index + 1).padStart(2, "0") : null;
 
   return (
     <Link
@@ -61,12 +67,12 @@ export function ProductCard({
           alt={name}
           fill
           sizes="(max-width: 768px) 100vw, 33vw"
-          className="object-cover transition-transform duration-600 ease-out group-hover:scale-[1.06]"
+          className="object-cover transition-transform duration-[700ms] ease-out group-hover:scale-[1.06]"
           priority={priority}
         />
 
-        {/* Hover overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0D0B09]/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+        {/* Hover overlay — gradiente più ricco */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0D0B09]/50 via-[#0D0B09]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
         {/* Stock badge */}
         <div className="absolute top-4 left-4">
@@ -74,6 +80,18 @@ export function ProductCard({
             {stock.label}
           </span>
         </div>
+
+        {/* Numero decorativo — appare in hover, stile editoriale */}
+        {decoNum && (
+          <div className="absolute top-3 right-4 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-out translate-y-2 group-hover:translate-y-0">
+            <span
+              className="text-[3.5rem] font-serif font-light leading-none text-white/20 select-none"
+              aria-hidden="true"
+            >
+              {decoNum}
+            </span>
+          </div>
+        )}
 
         {/* Gold corner accent on hover */}
         <div className="absolute bottom-0 right-0 w-12 h-12 opacity-0 group-hover:opacity-100 transition-all duration-500">
@@ -83,7 +101,7 @@ export function ProductCard({
 
         {/* View CTA — visible on mobile, enhanced on hover */}
         <div className="absolute bottom-5 left-0 right-0 flex justify-center sm:opacity-0 sm:translate-y-3 sm:group-hover:opacity-100 sm:group-hover:translate-y-0 transition-all duration-500 ease-out">
-          <span className="text-white text-[0.75rem] font-semibold uppercase tracking-[0.2em] px-6 py-2.5 bg-[var(--brand-charcoal)]/80 backdrop-blur-sm border border-white/10">
+          <span className="text-white text-[0.75rem] font-semibold uppercase tracking-[0.22em] px-6 py-2.5 bg-[var(--brand-charcoal)]/80 backdrop-blur-sm border border-white/10">
             {ctaLabel}
           </span>
         </div>

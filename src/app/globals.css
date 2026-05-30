@@ -5,110 +5,110 @@ MPV ITALIA — Riviera Italiana Design System
 ============================================ */
 
 :root {
-/* Brand Colors — Warm Italian Palette */
---brand-gold: #C9A96E;
---brand-gold-light: #D4B87A;
---brand-gold-dark: #B8985D;
---brand-gold-muted: #E8D5B0;
---brand-cream: #FAF8F5;
---brand-cream-warm: #F5F0E8;
---brand-charcoal: #1A1A1A;
---brand-graphite: #2D2D2D;
---brand-espresso: #3D2B1F;
---brand-champagne: #F7E7CE;
+  /* Brand Colors — Warm Italian Palette */
+  --brand-gold: #C9A96E;
+  --brand-gold-light: #D4B87A;
+  --brand-gold-dark: #B8985D;
+  --brand-gold-muted: #E8D5B0;
+  --brand-cream: #FAF8F5;
+  --brand-cream-warm: #F5F0E8;
+  --brand-charcoal: #1A1A1A;
+  --brand-graphite: #2D2D2D;
+  --brand-espresso: #3D2B1F;
+  --brand-champagne: #F7E7CE;
 
-/* Neutral Palette */
---neutral-50: #FAFAF9;
---neutral-100: #F5F5F0;
---neutral-200: #E7E5DF;
---neutral-300: #D4D0C8;
---neutral-400: #A39E94;
---neutral-500: #737068;
---neutral-600: #52504A;
---neutral-700: #403E3A;
---neutral-800: #262522;
---neutral-900: #171614;
+  /* Neutral Palette */
+  --neutral-50: #FAFAF9;
+  --neutral-100: #F5F5F0;
+  --neutral-200: #E7E5DF;
+  --neutral-300: #D4D0C8;
+  --neutral-400: #A39E94;
+  --neutral-500: #737068;
+  --neutral-600: #52504A;
+  --neutral-700: #403E3A;
+  --neutral-800: #262522;
+  --neutral-900: #171614;
 
-/* Semantic Colors */
---background: var(--brand-cream);
---foreground: var(--brand-charcoal);
---surface: #FFFFFF;
---surface-elevated: #FFFFFF;
---surface-warm: var(--brand-cream-warm);
---border: var(--neutral-200);
---border-strong: var(--neutral-300);
---muted: var(--neutral-500);
---accent: var(--brand-gold);
---accent-hover: var(--brand-gold-dark);
---success: #16A34A;
---error: #DC2626;
---warning: #D97706;
+  /* Semantic Colors */
+  --background: var(--brand-cream);
+  --foreground: var(--brand-charcoal);
+  --surface: #FFFFFF;
+  --surface-elevated: #FFFFFF;
+  --surface-warm: var(--brand-cream-warm);
+  --border: var(--neutral-200);
+  --border-strong: var(--neutral-300);
+  --muted: var(--neutral-500);
+  --accent: var(--brand-gold);
+  --accent-hover: var(--brand-gold-dark);
+  --success: #16A34A;
+  --error: #DC2626;
+  --warning: #D97706;
 
-/* Typography — Editorial Italian */
---font-display: 'Cormorant Garamond', 'Georgia', serif;
---font-serif: 'Cormorant Garamond', 'Georgia', serif;
---font-sans: 'Montserrat', 'Helvetica Neue', sans-serif;
+  /* Typography — Editorial Italian */
+  --font-display: 'Cormorant Garamond', 'Georgia', serif;
+  --font-serif: 'Cormorant Garamond', 'Georgia', serif;
+  --font-sans: 'Montserrat', 'Helvetica Neue', sans-serif;
 
-/* Spacing Scale */
---space-xs: 0.25rem;
---space-sm: 0.5rem;
---space-md: 1rem;
---space-lg: 1.5rem;
---space-xl: 2rem;
---space-2xl: 3rem;
---space-3xl: 4rem;
---space-4xl: 6rem;
---space-5xl: 8rem;
+  /* Spacing Scale */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
 
-/* Border Radius */
---radius-sm: 0.25rem;
---radius-md: 0.5rem;
---radius-lg: 0.75rem;
---radius-xl: 1rem;
---radius-full: 9999px;
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
 
-/* Shadows — Warm tones */
---shadow-sm: 0 1px 3px 0 rgb(60 46 30 / 0.06);
---shadow-md: 0 4px 12px -2px rgb(60 46 30 / 0.08), 0 2px 4px -2px rgb(60 46 30 / 0.04);
---shadow-lg: 0 12px 24px -4px rgb(60 46 30 / 0.1), 0 4px 8px -4px rgb(60 46 30 / 0.06);
---shadow-xl: 0 24px 48px -8px rgb(60 46 30 / 0.12), 0 8px 16px -6px rgb(60 46 30 / 0.06);
---shadow-gold: 0 4px 20px -4px rgb(201 169 110 / 0.25);
+  /* Shadows — Warm tones */
+  --shadow-sm: 0 1px 3px 0 rgb(60 46 30 / 0.06);
+  --shadow-md: 0 4px 12px -2px rgb(60 46 30 / 0.08), 0 2px 4px -2px rgb(60 46 30 / 0.04);
+  --shadow-lg: 0 12px 24px -4px rgb(60 46 30 / 0.1), 0 4px 8px -4px rgb(60 46 30 / 0.06);
+  --shadow-xl: 0 24px 48px -8px rgb(60 46 30 / 0.12), 0 8px 16px -6px rgb(60 46 30 / 0.06);
+  --shadow-gold: 0 4px 20px -4px rgb(201 169 110 / 0.25);
 
-/* Transitions — Refined easing */
---transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
---transition-base: 250ms cubic-bezier(0.22, 1, 0.36, 1);
---transition-slow: 400ms cubic-bezier(0.22, 1, 0.36, 1);
---transition-luxury: 600ms cubic-bezier(0.22, 1, 0.36, 1);
---transition-editorial: 800ms cubic-bezier(0.16, 1, 0.3, 1);
+  /* Transitions — Refined easing */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 250ms cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-slow: 400ms cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-luxury: 600ms cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-editorial: 800ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 @theme inline {
---color-background: var(--background);
---color-foreground: var(--foreground);
---color-surface: var(--surface);
---color-surface-elevated: var(--surface-elevated);
---color-surface-warm: var(--surface-warm);
---color-border: var(--border);
---color-border-strong: var(--border-strong);
---color-muted: var(--muted);
---color-accent: var(--accent);
---color-accent-hover: var(--accent-hover);
---color-success: var(--success);
---color-error: var(--error);
---color-warning: var(--warning);
---color-brand-gold: var(--brand-gold);
---color-brand-gold-light: var(--brand-gold-light);
---color-brand-gold-dark: var(--brand-gold-dark);
---color-brand-gold-muted: var(--brand-gold-muted);
---color-brand-cream: var(--brand-cream);
---color-brand-cream-warm: var(--brand-cream-warm);
---color-brand-charcoal: var(--brand-charcoal);
---color-brand-graphite: var(--brand-graphite);
---color-brand-espresso: var(--brand-espresso);
---color-brand-champagne: var(--brand-champagne);
---font-display: var(--font-display);
---font-serif: var(--font-display);
---font-sans: var(--font-sans);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-warm: var(--surface-warm);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-success: var(--success);
+  --color-error: var(--error);
+  --color-warning: var(--warning);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-gold-light: var(--brand-gold-light);
+  --color-brand-gold-dark: var(--brand-gold-dark);
+  --color-brand-gold-muted: var(--brand-gold-muted);
+  --color-brand-cream: var(--brand-cream);
+  --color-brand-cream-warm: var(--brand-cream-warm);
+  --color-brand-charcoal: var(--brand-charcoal);
+  --color-brand-graphite: var(--brand-graphite);
+  --color-brand-espresso: var(--brand-espresso);
+  --color-brand-champagne: var(--brand-champagne);
+  --font-display: var(--font-display);
+  --font-serif: var(--font-display);
+  --font-sans: var(--font-sans);
 }
 
 /* ============================================
@@ -116,19 +116,19 @@ BASE STYLES
 ============================================ */
 
 * {
-border-color: var(--border);
+  border-color: var(--border);
 }
 
 body {
-background: var(--background);
-color: var(--foreground);
-font-family: var(--font-sans);
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-line-height: 1.7;
-font-weight: 400;
-font-size: 16px;
-letter-spacing: 0.01em;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
 }
 
 /* ============================================
@@ -136,75 +136,75 @@ TYPOGRAPHY — Editorial Scale
 ============================================ */
 
 h1, h2, h3, h4, h5, h6 {
-font-family: var(--font-display);
-font-weight: 500;
-line-height: 1.1;
-letter-spacing: -0.02em;
-color: var(--foreground);
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--foreground);
 }
 
 h1 {
-font-size: clamp(2.5rem, 6vw, 5rem);
-font-weight: 400;
-line-height: 1.05;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 400;
+  line-height: 1.05;
 }
 
 h2 {
-font-size: clamp(1.8rem, 4vw, 3rem);
-font-weight: 400;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 400;
 }
 
 h3 {
-font-size: clamp(1.4rem, 3vw, 2rem);
-font-weight: 500;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 500;
 }
 
 /* Display heading — for hero moments */
 .display-heading {
-font-family: var(--font-display);
-font-size: clamp(3rem, 8vw, 7rem);
-font-weight: 300;
-line-height: 0.95;
-letter-spacing: -0.03em;
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 7rem);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
 }
 
 /* Italian accent text — italic serif */
 .accent-text {
-font-family: var(--font-display);
-font-style: italic;
-font-weight: 400;
-color: var(--brand-gold);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--brand-gold);
 }
 
 /* Overline label */
 .overline {
-font-family: var(--font-sans);
-font-size: 0.75rem;
-font-weight: 600;
-letter-spacing: 0.25em;
-text-transform: uppercase;
-color: var(--brand-gold);
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--brand-gold);
 }
 
 /* Large decorative number */
 .deco-number {
-font-family: var(--font-display);
-font-size: clamp(4rem, 10vw, 10rem);
-font-weight: 300;
-line-height: 0.85;
-color: var(--brand-gold-muted);
-opacity: 0.3;
-user-select: none;
-pointer-events: none;
+  font-family: var(--font-display);
+  font-size: clamp(4rem, 10vw, 10rem);
+  font-weight: 300;
+  line-height: 0.85;
+  color: var(--brand-gold-muted);
+  opacity: 0.3;
+  user-select: none;
+  pointer-events: none;
 }
 
 /* Body text refinement */
 .body-text {
-font-family: var(--font-sans);
-font-size: 1rem;
-line-height: 1.8;
-color: var(--neutral-600);
-font-weight: 300;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--neutral-600);
+  font-weight: 300;
 }
 
 /* ============================================
@@ -212,13 +212,13 @@ LINKS
 ============================================ */
 
 a {
-color: var(--foreground);
-text-decoration: none;
-transition: color var(--transition-base);
+  color: var(--foreground);
+  text-decoration: none;
+  transition: color var(--transition-base);
 }
 
 a:hover {
-color: var(--accent);
+  color: var(--accent);
 }
 
 /* ============================================
@@ -226,25 +226,25 @@ SELECTION & SCROLLBAR
 ============================================ */
 
 ::selection {
-background: var(--brand-gold);
-color: white;
+  background: var(--brand-gold);
+  color: white;
 }
 
 ::-webkit-scrollbar {
-width: 6px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-background: var(--brand-cream);
+  background: var(--brand-cream);
 }
 
 ::-webkit-scrollbar-thumb {
-background: var(--neutral-300);
-border-radius: var(--radius-full);
+  background: var(--neutral-300);
+  border-radius: var(--radius-full);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: var(--brand-gold-muted);
+  background: var(--brand-gold-muted);
 }
 
 /* ============================================
@@ -252,18 +252,18 @@ FOCUS & BUTTONS
 ============================================ */
 
 :focus-visible {
-outline: 2.5px solid var(--accent);
-outline-offset: 3px;
+  outline: 2.5px solid var(--accent);
+  outline-offset: 3px;
 }
 
 button {
-cursor: pointer;
-font-family: var(--font-sans);
+  cursor: pointer;
+  font-family: var(--font-sans);
 }
 
 img {
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* ============================================
@@ -271,15 +271,15 @@ GRAIN OVERLAY — Subtle texture
 ============================================ */
 
 .grain::before {
-content: "";
-position: fixed;
-inset: 0;
-z-index: 50;
-pointer-events: none;
-opacity: 0.025;
-background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-background-repeat: repeat;
-background-size: 256px 256px;
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
 }
 
 /* ============================================
@@ -287,33 +287,68 @@ GOLD FILIGREE DIVIDER
 ============================================ */
 
 .filigree {
-display: flex;
-align-items: center;
-gap: 1rem;
-margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
 }
 
 .filigree::before,
 .filigree::after {
-content: "";
-flex: 1;
-height: 1px;
-background: linear-gradient(
-90deg,
-transparent,
-var(--brand-gold-muted) 20%,
-var(--brand-gold) 50%,
-var(--brand-gold-muted) 80%,
-transparent
-);
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--brand-gold-muted) 20%,
+    var(--brand-gold) 50%,
+    var(--brand-gold-muted) 80%,
+    transparent
+  );
+  /* Animación de extensión al entrar en viewport */
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 800ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.filigree.visible::before,
+.filigree.visible::after,
+.reveal.visible ~ .filigree::before,
+.reveal.visible ~ .filigree::after {
+  transform: scaleX(1);
+}
+
+/* Filigree siempre visible por defecto (sin JS de reveal) */
+.filigree::before,
+.filigree::after {
+  transform: scaleX(1);
+}
+
+/* Filigree animado — clase opt-in */
+.filigree-animated::before,
+.filigree-animated::after {
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 900ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.filigree-animated.filigree-visible::before {
+  transform: scaleX(1);
+  transition-delay: 0ms;
+}
+
+.filigree-animated.filigree-visible::after {
+  transform: scaleX(1);
+  transition-delay: 150ms;
 }
 
 .filigree span {
-font-family: var(--font-display);
-font-style: italic;
-font-size: 0.85rem;
-color: var(--brand-gold);
-white-space: nowrap;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--brand-gold);
+  white-space: nowrap;
 }
 
 /* ============================================
@@ -321,14 +356,14 @@ LUXURY CARD
 ============================================ */
 
 .luxury-card {
-transition:
-transform var(--transition-luxury),
-box-shadow var(--transition-luxury);
+  transition:
+    transform var(--transition-luxury),
+    box-shadow var(--transition-luxury);
 }
 
 .luxury-card:hover {
-transform: translateY(-6px);
-box-shadow: var(--shadow-xl);
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
 }
 
 /* ============================================
@@ -336,7 +371,7 @@ GOLD GRADIENT
 ============================================ */
 
 .gradient-gold {
-background: linear-gradient(135deg, var(--brand-gold-light), var(--brand-gold), var(--brand-gold-dark));
+  background: linear-gradient(135deg, var(--brand-gold-light), var(--brand-gold), var(--brand-gold-dark));
 }
 
 /* ============================================
@@ -344,12 +379,12 @@ LUXURY BORDER
 ============================================ */
 
 .border-luxury {
-border: 1px solid var(--border);
-transition: border-color var(--transition-base);
+  border: 1px solid var(--border);
+  transition: border-color var(--transition-base);
 }
 
 .border-luxury:hover {
-border-color: var(--brand-gold-muted);
+  border-color: var(--brand-gold-muted);
 }
 
 /* ============================================
@@ -357,25 +392,25 @@ SCROLL REVEAL ANIMATIONS
 ============================================ */
 
 .reveal {
-opacity: 0;
-transform: translateY(30px);
-transition:
-opacity var(--transition-editorial),
-transform var(--transition-editorial);
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity var(--transition-editorial),
+    transform var(--transition-editorial);
 }
 
 .reveal.visible {
-opacity: 1;
-transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Stagger children */
 .reveal-stagger > * {
-opacity: 0;
-transform: translateY(24px);
-transition:
-opacity var(--transition-editorial),
-transform var(--transition-editorial);
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity var(--transition-editorial),
+    transform var(--transition-editorial);
 }
 
 .reveal-stagger.visible > *:nth-child(1) { transition-delay: 0ms; }
@@ -386,50 +421,50 @@ transform var(--transition-editorial);
 .reveal-stagger.visible > *:nth-child(6) { transition-delay: 500ms; }
 
 .reveal-stagger.visible > * {
-opacity: 1;
-transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Slide from left */
 .reveal-left {
-opacity: 0;
-transform: translateX(-40px);
-transition:
-opacity var(--transition-editorial),
-transform var(--transition-editorial);
+  opacity: 0;
+  transform: translateX(-40px);
+  transition:
+    opacity var(--transition-editorial),
+    transform var(--transition-editorial);
 }
 
 .reveal-left.visible {
-opacity: 1;
-transform: translateX(0);
+  opacity: 1;
+  transform: translateX(0);
 }
 
 /* Slide from right */
 .reveal-right {
-opacity: 0;
-transform: translateX(40px);
-transition:
-opacity var(--transition-editorial),
-transform var(--transition-editorial);
+  opacity: 0;
+  transform: translateX(40px);
+  transition:
+    opacity var(--transition-editorial),
+    transform var(--transition-editorial);
 }
 
 .reveal-right.visible {
-opacity: 1;
-transform: translateX(0);
+  opacity: 1;
+  transform: translateX(0);
 }
 
 /* Scale reveal */
 .reveal-scale {
-opacity: 0;
-transform: scale(0.95);
-transition:
-opacity var(--transition-editorial),
-transform var(--transition-editorial);
+  opacity: 0;
+  transform: scale(0.95);
+  transition:
+    opacity var(--transition-editorial),
+    transform var(--transition-editorial);
 }
 
 .reveal-scale.visible {
-opacity: 1;
-transform: scale(1);
+  opacity: 1;
+  transform: scale(1);
 }
 
 /* ============================================
@@ -437,17 +472,26 @@ PARALLAX CONTAINER
 ============================================ */
 
 .parallax-container {
-overflow: hidden;
-position: relative;
+  overflow: hidden;
+  position: relative;
 }
 
 .parallax-container .parallax-bg {
-position: absolute;
-inset: -15%;
-width: 130%;
-height: 130%;
-object-fit: cover;
-will-change: transform;
+  position: absolute;
+  inset: -15%;
+  width: 130%;
+  height: 130%;
+  object-fit: cover;
+  will-change: transform;
+}
+
+/* ============================================
+HERO PARALLAX
+============================================ */
+
+.hero-parallax-img {
+  will-change: transform;
+  transition: transform 0ms linear;
 }
 
 /* ============================================
@@ -455,15 +499,15 @@ IMAGE HOVER — Ken Burns
 ============================================ */
 
 .ken-burns {
-overflow: hidden;
+  overflow: hidden;
 }
 
 .ken-burns img {
-transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .ken-burns:hover img {
-transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 /* ============================================
@@ -471,21 +515,21 @@ EDITORIAL IMAGE FRAME
 ============================================ */
 
 .editorial-frame {
-position: relative;
+  position: relative;
 }
 
 .editorial-frame::after {
-content: "";
-position: absolute;
-inset: 12px;
-border: 1px solid var(--brand-gold-muted);
-pointer-events: none;
-opacity: 0.5;
-transition: opacity var(--transition-slow);
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1px solid var(--brand-gold-muted);
+  pointer-events: none;
+  opacity: 0.5;
+  transition: opacity var(--transition-slow);
 }
 
 .editorial-frame:hover::after {
-opacity: 1;
+  opacity: 1;
 }
 
 /* ============================================
@@ -493,38 +537,38 @@ ATMOSPHERIC SECTIONS
 ============================================ */
 
 .section-dark {
-background: var(--brand-charcoal);
-color: white;
-position: relative;
+  background: var(--brand-charcoal);
+  color: white;
+  position: relative;
 }
 
 .section-dark::before {
-content: "";
-position: absolute;
-inset: 0;
-background:
-radial-gradient(ellipse at 20% 50%, rgba(201, 169, 110, 0.06) 0%, transparent 60%),
-radial-gradient(ellipse at 80% 20%, rgba(201, 169, 110, 0.04) 0%, transparent 50%);
-pointer-events: none;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(201, 169, 110, 0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(201, 169, 110, 0.04) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 .section-warm {
-background: var(--brand-cream-warm);
-position: relative;
+  background: var(--brand-cream-warm);
+  position: relative;
 }
 
 .section-warm::before {
-content: "";
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-height: 1px;
-background: linear-gradient(90deg, transparent, var(--brand-gold-muted), transparent);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--brand-gold-muted), transparent);
 }
 
 /* ============================================
-BUTTON REFINEMENTS
+BUTTON REFINEMENTS — FIXED (was using non-breaking spaces)
 ============================================ */
 
 .btn-luxury {
@@ -534,16 +578,16 @@ BUTTON REFINEMENTS
 }
 
 .btn-luxury::before {
-content: "";
-position: absolute;
-inset: 0;
-background: linear-gradient(135deg, transparent 40%, rgba(255,255,255,0.1) 50%, transparent 60%);
-transform: translateX(-100%);
-transition: transform 0.6s ease;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, transparent 40%, rgba(255,255,255,0.1) 50%, transparent 60%);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
 }
 
 .btn-luxury:hover::before {
-transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 /* ============================================
@@ -551,7 +595,7 @@ HERO VIGNETTE
 ============================================ */
 
 .hero-vignette {
-box-shadow: inset 0 0 150px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 150px 60px rgba(0, 0, 0, 0.3);
 }
 
 /* ============================================
@@ -559,103 +603,103 @@ HEADER ENTRANCE ANIMATION
 ============================================ */
 
 @keyframes header-slide-in {
-0% {
-opacity: 0;
-transform: translateY(-100%);
-}
-100% {
-opacity: 1;
-transform: translateY(0);
-}
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes logo-reveal {
-0% {
-opacity: 0;
-transform: scale(0.85);
-}
-60% {
-opacity: 1;
-transform: scale(1.02);
-}
-100% {
-opacity: 1;
-transform: scale(1);
-}
+  0% {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes logo-shimmer {
-0% {
-background-position: -200% center;
-}
-100% {
-background-position: 200% center;
-}
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
 }
 
 @keyframes header-item-fade {
-0% {
-opacity: 0;
-transform: translateY(-8px);
-}
-100% {
-opacity: 1;
-transform: translateY(0);
-}
+  0% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Header entrance — slides down from top */
 .header-entrance {
-animation: header-slide-in 600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: header-slide-in 600ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 /* Logo reveal — scales up with a subtle overshoot */
 .logo-entrance {
-animation: logo-reveal 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
-animation-delay: 100ms;
+  animation: logo-reveal 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 100ms;
 }
 
 /* Gold shimmer sweep — plays once after logo appears */
 .logo-shimmer {
-position: relative;
+  position: relative;
 }
 
 .logo-shimmer::after {
-content: "";
-position: absolute;
-inset: 0;
-background: linear-gradient(
-105deg,
-transparent 30%,
-rgba(201, 169, 110, 0.35) 45%,
-rgba(212, 184, 122, 0.5) 50%,
-rgba(201, 169, 110, 0.35) 55%,
-transparent 70%
-);
-background-size: 250% 100%;
-background-position: -200% center;
-animation: logo-shimmer 900ms ease-out 600ms both;
-pointer-events: none;
-border-radius: inherit;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 30%,
+    rgba(201, 169, 110, 0.35) 45%,
+    rgba(212, 184, 122, 0.5) 50%,
+    rgba(201, 169, 110, 0.35) 55%,
+    transparent 70%
+  );
+  background-size: 250% 100%;
+  background-position: -200% center;
+  animation: logo-shimmer 900ms ease-out 600ms both;
+  pointer-events: none;
+  border-radius: inherit;
 }
 
 /* Header items (nav links, cart) stagger in */
 .header-item-entrance {
-opacity: 0;
-animation: header-item-fade 500ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  opacity: 0;
+  animation: header-item-fade 500ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 /* Logo hover — subtle scale + gold glow */
 .logo-hover {
-transition:
-transform 400ms cubic-bezier(0.22, 1, 0.36, 1),
-filter 400ms cubic-bezier(0.22, 1, 0.36, 1),
-box-shadow 400ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition:
+    transform 400ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 400ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 400ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .logo-hover:hover {
-transform: scale(1.03);
-filter: drop-shadow(0 2px 12px rgba(201, 169, 110, 0.3));
+  transform: scale(1.03);
+  filter: drop-shadow(0 2px 12px rgba(201, 169, 110, 0.3));
 }
 
 /* ============================================
@@ -663,32 +707,47 @@ RESPONSIVE TYPE SCALE
 ============================================ */
 
 @media (max-width: 640px) {
-.display-heading {
-font-size: clamp(2.2rem, 10vw, 3.5rem);
-}
+  .display-heading {
+    font-size: clamp(2.2rem, 10vw, 3.5rem);
+  }
 
-.deco-number {
-font-size: clamp(3rem, 15vw, 5rem);
-}
+  .deco-number {
+    font-size: clamp(3rem, 15vw, 5rem);
+  }
 }
 
 /* ============================================
-LOGO EFFECTS — MPV Logo Harness
+LOGO EFFECTS — MPV Logo Harness — FIXED
 ============================================ */
 
-/* Base logo container */
+/* Base logo container — FIXED: was using non-breaking spaces */
 .mpv-logo {
   position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  transition: filter 400ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .mpv-logo__svg {
   position: relative;
   z-index: 1;
   display: block;
+}
+
+/* Logo hover — gold drop shadow on all effects */
+.mpv-logo:hover {
+  filter: drop-shadow(0 2px 16px rgba(201, 169, 110, 0.45));
+}
+
+/* Dark variant — brighter filter to compensate for dark backgrounds */
+.mpv-logo--dark-variant {
+  filter: brightness(1.1) contrast(1.05);
+}
+
+.mpv-logo--dark-variant:hover {
+  filter: brightness(1.15) contrast(1.08) drop-shadow(0 2px 16px rgba(201, 169, 110, 0.55));
 }
 
 /* --- SHIMMER EFFECT --- */
@@ -748,6 +807,10 @@ LOGO EFFECTS — MPV Logo Harness
   }
 }
 
+.mpv-logo--glow:hover .mpv-logo__glow-ring {
+  animation-duration: 1.2s;
+}
+
 /* --- PULSE EFFECT --- */
 .mpv-logo--pulse .mpv-logo__svg {
   animation: mpv-pulse 2.5s ease-in-out infinite;
@@ -768,9 +831,6 @@ LOGO EFFECTS — MPV Logo Harness
   50% { transform: translateY(-6px); }
 }
 
-/* --- GRADIENT EFFECT --- */
-/* SVG handles this via <animate> elements inside <linearGradient> */
-
 /* --- REVEAL EFFECT --- */
 .mpv-logo--reveal .mpv-logo__svg {
   animation: mpv-reveal 1.2s cubic-bezier(0.22, 1, 0.36, 1) both;
@@ -787,6 +847,57 @@ LOGO EFFECTS — MPV Logo Harness
   100% {
     clip-path: inset(0 0 0 0);
     opacity: 1;
+  }
+}
+
+/* --- SPIN EFFECT --- */
+.mpv-logo--spin .mpv-logo__svg {
+  animation: mpv-spin 12s linear infinite;
+}
+
+@keyframes mpv-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* --- GRADIENT EFFECT — animated gold shimmer via filter --- */
+.mpv-logo--gradient .mpv-logo__svg {
+  animation: mpv-logo-gradient 4s ease-in-out infinite;
+}
+
+.mpv-logo--gradient::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 25%,
+    rgba(201, 169, 110, 0.25) 40%,
+    rgba(212, 184, 122, 0.5) 50%,
+    rgba(201, 169, 110, 0.25) 60%,
+    transparent 75%
+  );
+  background-size: 250% 100%;
+  background-position: -200% center;
+  animation: mpv-shimmer 3s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 2;
+  border-radius: inherit;
+  mix-blend-mode: overlay;
+}
+
+@keyframes mpv-logo-gradient {
+  0%, 100% {
+    filter: brightness(1) contrast(1) hue-rotate(0deg);
+  }
+  25% {
+    filter: brightness(1.15) contrast(1.08) hue-rotate(5deg);
+  }
+  50% {
+    filter: brightness(1.25) contrast(1.12) hue-rotate(-3deg);
+  }
+  75% {
+    filter: brightness(1.1) contrast(1.05) hue-rotate(8deg);
   }
 }
 
@@ -809,37 +920,44 @@ LOGO EFFECTS — MPV Logo Harness
   }
 }
 
-/* --- HOVER INTERACTIONS (all effects) --- */
-.mpv-logo {
-  transition: filter 400ms cubic-bezier(0.22, 1, 0.36, 1);
+/* --- SPLASH RIPPLE --- */
+@keyframes mpv-ripple {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(3.5);
+    opacity: 0;
+  }
 }
 
-.mpv-logo:hover {
-  filter: drop-shadow(0 2px 12px rgba(201, 169, 110, 0.35));
+.mpv-splash-ripple {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(201, 169, 110, 0.4);
+  animation: mpv-ripple 2s ease-out infinite;
+  pointer-events: none;
 }
 
-.mpv-logo--glow:hover .mpv-logo__glow-ring {
-  animation-duration: 1.2s;
+.mpv-splash-ripple:nth-child(2) {
+  animation-delay: 0.6s;
 }
 
-/* --- SPIN EFFECT --- */
-.mpv-logo--spin .mpv-logo__svg {
-  animation: mpv-spin 12s linear infinite;
-}
-
-@keyframes mpv-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.mpv-splash-ripple:nth-child(3) {
+  animation-delay: 1.2s;
 }
 
 /* --- REDUCED MOTION (logo) --- */
 @media (prefers-reduced-motion: reduce) {
   .mpv-logo--shimmer::after,
+  .mpv-logo--gradient::after,
   .mpv-logo__glow-ring,
   .mpv-logo--pulse .mpv-logo__svg,
   .mpv-logo--float .mpv-logo__svg,
   .mpv-logo--reveal .mpv-logo__svg,
-  .mpv-logo--spin .mpv-logo__svg {
+  .mpv-logo--spin .mpv-logo__svg,
+  .mpv-logo--gradient .mpv-logo__svg {
     animation: none !important;
   }
 
@@ -888,6 +1006,16 @@ REDUCED MOTION — Respect user preference
   .parallax-container .parallax-bg {
     will-change: auto !important;
   }
+
+  .hero-parallax-img {
+    will-change: auto !important;
+  }
+
+  .filigree-animated::before,
+  .filigree-animated::after {
+    transform: scaleX(1) !important;
+    transition: none !important;
+  }
 }
 
 /* ============================================
@@ -901,9 +1029,9 @@ PRINT STYLES
 ============================================ */
 
 @media print {
-.grain::before,
-.filigree::before,
-.filigree::after {
-display: none;
-}
+  .grain::before,
+  .filigree::before,
+  .filigree::after {
+    display: none;
+  }
 }

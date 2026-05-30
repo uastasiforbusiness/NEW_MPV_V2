@@ -46,7 +46,8 @@ export function Header() {
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[var(--surface)] focus:text-[var(--foreground)] focus:rounded-[var(--radius-md)] focus:shadow-lg focus:outline-2 focus:outline-[var(--accent)]"
-      >              {commonT("skipToContent")}
+      >
+        {commonT("skipToContent")}
       </a>
 
       <header
@@ -64,15 +65,21 @@ export function Header() {
               className="flex items-center gap-3 group relative logo-entrance"
             >
               <Logo
-                variant={scrolled ? "dark" : "light"}
+                variant={scrolled ? "light" : "dark"}
                 mode="compact"
-                size={44}
-                effect="shimmer"
-                className="h-11 sm:h-12 w-auto drop-shadow-[0_0_12px_rgba(201,169,110,0.6)]"
+                size={52}
+                effect="gradient"
+                className={`h-12 sm:h-[3.25rem] w-auto transition-all duration-500 ${
+                  scrolled
+                    ? "drop-shadow-[0_0_8px_rgba(201,169,110,0.3)]"
+                    : "drop-shadow-[0_0_18px_rgba(201,169,110,0.65)]"
+                }`}
               />
               <span className="hidden sm:flex flex-col leading-none">
                 <span
-                  className="text-[1.05rem] font-semibold tracking-[0.22em] text-[var(--foreground)]"
+                  className={`text-[1.05rem] font-semibold tracking-[0.22em] transition-colors duration-300 ${
+                    scrolled ? "text-[var(--foreground)]" : "text-white"
+                  }`}
                   style={{ fontFamily: "var(--font-display, var(--font-sans))" }}
                 >
                   MPV
@@ -94,8 +101,12 @@ export function Header() {
                     aria-current={isActive ? "page" : undefined}
                     className={`relative text-[0.8rem] font-medium uppercase tracking-[0.18em] transition-colors duration-300 py-1 group ${
                       isActive
-                        ? "text-[var(--foreground)]"
-                        : "text-[var(--neutral-600)] hover:text-[var(--foreground)]"
+                        ? scrolled
+                          ? "text-[var(--foreground)]"
+                          : "text-white"
+                        : scrolled
+                        ? "text-[var(--neutral-600)] hover:text-[var(--foreground)]"
+                        : "text-white/75 hover:text-white"
                     }`}
                   >
                     {link.label}
@@ -117,7 +128,11 @@ export function Header() {
               {/* Cart */}
               <Link
                 href="/carrello"
-                className="relative p-3 min-w-[44px] min-h-[44px] flex items-center justify-center text-[var(--neutral-600)] hover:text-[var(--foreground)] transition-colors duration-300"
+                className={`relative p-3 min-w-[44px] min-h-[44px] flex items-center justify-center transition-colors duration-300 ${
+                  scrolled
+                    ? "text-[var(--neutral-600)] hover:text-[var(--foreground)]"
+                    : "text-white/75 hover:text-white"
+                }`}
                 aria-label={
                   itemCount > 0
                     ? headerT("cartLabelWithItems", { count: itemCount })
@@ -148,7 +163,11 @@ export function Header() {
               {/* Mobile Menu Toggle */}
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="md:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center text-[var(--neutral-600)] hover:text-[var(--foreground)] transition-colors duration-300"
+                className={`md:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center transition-colors duration-300 ${
+                  scrolled
+                    ? "text-[var(--neutral-600)] hover:text-[var(--foreground)]"
+                    : "text-white/75 hover:text-white"
+                }`}
                 aria-label={
                   isMenuOpen
                     ? headerT("mobileMenuClose")

@@ -75,11 +75,11 @@ export function ProductInfo({
 
       {/* Price */}
       <div>
-        <p className="text-3xl font-serif font-bold">
+        <p className="text-3xl font-serif font-normal tracking-tight">
           {formatCurrency(price)}
         </p>
         <p className="text-sm text-[var(--muted)] mt-1">
-          {t("ivaIncluded", { amount: formatCurrency(price - price / (1 + ivaRate)) })}
+          {t("ivaIncluded", { amount: formatCurrency(breakdown.ivaAmount) })}
         </p>
       </div>
 
