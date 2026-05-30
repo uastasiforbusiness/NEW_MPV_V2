@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > matches snapshot at top of page 1`] = `
+<a
+  class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[var(--surface)] focus:text-[var(--foreground)] focus:rounded-[var(--radius-md)] focus:shadow-lg focus:outline-2 focus:outline-[var(--accent)]"
+  href="#main-content"
+>
+                
+  Salta al contenuto
+</a>
+`;
+
+exports[`Header > matches snapshot when scrolled with cart items 1`] = `
+<a
+  class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[var(--surface)] focus:text-[var(--foreground)] focus:rounded-[var(--radius-md)] focus:shadow-lg focus:outline-2 focus:outline-[var(--accent)]"
+  href="#main-content"
+>
+                
+  Salta al contenuto
+</a>
+`;

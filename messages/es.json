@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "title": "MPV Italia — Luxury Pet Furniture",
+    "description": "Muebles de lujo para mascotas. Sofás artesanales italianos diseñados para la comodidad de tu mascota y la elegancia de tu hogar.",
+    "ogTitle": "MPV Italia — Luxury Pet Furniture",
+    "ogDescription": "Sofás artesanales italianos diseñados para la comodidad de tu mascota y la elegancia de tu hogar.",
+    "twitterDescription": "Muebles de lujo para mascotas. Sofás artesanales italianos.",
+    "cartTitle": "Carrito — MPV Italia",
+    "cartDescription": "Revisa tu carrito. Sofás artesanales de lujo para mascotas.",
+    "checkoutTitle": "Pago — MPV Italia",
+    "checkoutDescription": "Completa tu pedido. Pago seguro con Nexi XPay o PayPal.",
+    "confirmationTitle": "Pedido Confirmado — MPV Italia",
+    "confirmationDescription": "Tu pedido ha sido confirmado con éxito. Recibirás un email con los detalles.",
+    "notFoundTitle": "Página no encontrada (404) — MPV Italia",
+    "notFoundDescription": "La página que buscas no existe o ha sido movida."
+  },
+  "common": {
+    "skipToContent": "Ir al contenido principal",
+    "madeInItaly": "Made in Italy · desde 2024",
+    "ivaIncluded": "IVA incluido",
+    "scopri": "Descubrir",
+    "continua": "Continuar",
+    "indietro": "Atrás",
+    "tornaHome": "Volver al Inicio",
+    "carrello": "Carrito",
+    "prodotti": "Colección",
+    "home": "Inicio",
+    "loading": "Cargando..."
+  },
+  "header": {
+    "navHome": "Inicio",
+    "navCollezione": "Colección",
+    "cartLabel": "Carrito",
+    "cartLabelWithItems": "Carrito ({count} artículos)",
+    "mobileMenuOpen": "Abrir menú",
+    "mobileMenuClose": "Cerrar menú",
+    "mobileDesc": "Muebles de lujo para mascotas.",
+    "mobileDesc2": "Made in Italy."
+  },
+  "footer": {
+    "brandDesc": "Muebles de lujo para mascotas. Sofás artesanales italianos diseñados para la comodidad de tu mascota y la elegancia de tu hogar.",
+    "collectionTitle": "Colección",
+    "productNegro": "Sofá MPV — Negro",
+    "productRosa": "Sofá MPV — Rosa",
+    "productVerde": "Sofá MPV — Verde",
+    "contactsTitle": "Contacto",
+    "copyright": "© {year} MPV Italia. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "cookiePolicy": "Política de Cookies",
+    "rightOfWithdrawal": "Derecho de Desistimiento"
+  },
+  "home": {
+    "hero": {
+      "overline": "Made in Italy · desde 2024",
+      "title1": "Donde el Lujo",
+      "title2": "Encuentra el Amor",
+      "title3": "por tu Mascota",
+      "subtitle": "Sofás artesanales italianos diseñados para la comodidad de tu mascota y la elegancia de tu hogar.",
+      "ctaPrimary": "Descubrir la Colección",
+      "ctaSecondary": "Explorar el Sofá Negro",
+      "scroll": "Desplázate"
+    },
+    "trust": {
+      "craftsmanship": "Artesanía Italiana",
+      "warranty": "Garantía Legal",
+      "delivery": "Entrega en Italia",
+      "express": "Envío Exprés"
+    },
+    "brandStory": {
+      "overline": "Nuestra Historia",
+      "title1": "Artesanía Italiana",
+      "title2": "para Quien Ama",
+      "desc1": "MPV Italia nace de la pasión por el diseño y el amor por los animales. Cada sofá está hecho a mano en Italia por artesanos que entienden la importancia de la comodidad y la estética.",
+      "desc2": "Utilizamos solo materiales premium — terciopelo hidrorrepelente, memory foam ortopédico, madera maciza — para crear piezas que duran toda la vida y se integran perfectamente en tu hogar.",
+      "points": [
+        "Materiales premium seleccionados a mano",
+        "Diseño ergonómico para la comodidad de tu mascota",
+        "Entrega gratuita en toda Italia",
+        "Garantía legal de 2 años"
+      ]
+    },
+    "collection": {
+      "overline": "Colección",
+      "title": "Nuestros Sofás",
+      "subtitle": "Tres variantes de color para adaptarse a cada estilo y personalidad.",
+      "cta": "Ver toda la Colección"
+    },
+    "craftsmanship": {
+      "overline": "Materiales y Proceso",
+      "title1": "La Calidad",
+      "title2": "se Toca",
+      "desc": "Cada componente está seleccionado para garantizar durabilidad, comodidad y elegancia — desde las telas hasta las estructuras, cada detalle cuenta.",
+      "materials": [
+        {
+          "name": "Terciopelo Hidrorrepelente",
+          "desc": "Tejido premium resistente a manchas y pelo, suave al tacto y fácil de limpiar."
+        },
+        {
+          "name": "Memory Foam Ortopédico",
+          "desc": "Relleno de alta densidad que se adapta a la forma de tu mascota, ofreciendo soporte ergonómico."
+        },
+        {
+          "name": "Madera Maciza FSC",
+          "desc": "Estructura de haya certificada, robusta y sostenible — construida para durar toda la vida."
+        }
+      ]
+    },
+    "lifestyle": {
+      "desc": "Colección Negro — Terciopelo hidrorrepelente",
+      "title": "Momentos de puro amor,",
+      "title2": "envueltos en confort italiano"
+    },
+    "testimonials": {
+      "overline": "Lo que Dicen de Nosotros",
+      "title": "Voces de Nuestros Clientes",
+      "placeholder": "[ Testimonios placeholder — sustituir con reseñas verificadas ]",
+      "items": [
+        {
+          "quote": "El sofá MPV ha transformado nuestra sala de estar. Bella duerme tranquila y los invitados no creen que sea una cama para mascotas.",
+          "author": "Francesca M.",
+          "detail": "Milán — Sofá Negro"
+        },
+        {
+          "quote": "Calidad increíble, se nota que está hecho con amor. La tela resiste perfectamente el pelo de nuestro golden retriever.",
+          "author": "Marco T.",
+          "detail": "Roma — Sofá Rosa"
+        },
+        {
+          "quote": "Por fin un producto que no compromete la estética del hogar. Nuestro gato lo adora tanto como nosotros.",
+          "author": "Giulia R.",
+          "detail": "Florencia — Sofá Verde"
+        }
+      ]
+    },
+    "cta": {
+      "overline": "Tu Mascota Merece lo Mejor",
+      "title1": "¿Listo para Darle",
+      "title2": "el Máximo Confort?",
+      "desc": "Descubre la colección MPV Italia y regala a tu mascota el sofá que se merece. Entrega gratuita y garantía de 2 años en cada pedido.",
+      "priceFrom": "Desde {price} IVA incluido",
+      "cta": "Descubrir la Colección"
+    }
+  },
+  "cart": {
+    "title": "Carrito",
+    "empty": {
+      "title": "Tu carrito está vacío",
+      "desc": "Explora nuestra colección de sofás artesanales y añade al carrito los productos que prefieras.",
+      "cta": "Descubrir Productos"
+    },
+    "itemRemove": "Eliminar",
+    "itemRemoveLabel": "Eliminar {name} del carrito",
+    "itemDecrease": "Quitar uno",
+    "itemIncrease": "Añadir uno",
+    "summary": {
+      "title": "Resumen del Pedido",
+      "subtotal": "Subtotal",
+      "iva": "IVA ({rate})",
+      "shipping": "Envío",
+      "shippingFree": "Gratuito",
+      "total": "Total",
+      "ivaIncluded": "IVA {rate} incluido"
+    },
+    "checkoutCta": "Proceder al Pago"
+  },
+  "checkout": {
+    "title": "Pago",
+    "steps": {
+      "shipping": "Envío",
+      "billing": "Facturación",
+      "payment": "Pago",
+      "review": "Resumen"
+    },
+    "ariaLabel": "Estado del pago",
+    "shipping": {
+      "title": "Dirección de Envío",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "address": "Dirección",
+      "addressPlaceholder": "Calle y número",
+      "cap": "Código Postal",
+      "capPlaceholder": "00000",
+      "city": "Ciudad",
+      "province": "Provincia",
+      "provincePlaceholder": "Seleccionar",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+39 3XX XXX XXXX",
+      "country": "País"
+    },
+    "billing": {
+      "title": "Datos de Facturación",
+      "sameAsShipping": "Igual que envío",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "address": "Dirección",
+      "cap": "Código Postal",
+      "city": "Ciudad",
+      "province": "Provincia",
+      "cf": "Código Fiscal (opcional para B2C)",
+      "cfPlaceholder": "RSSMRA85M01H501Z",
+      "piva": "Número de IVA (opcional)",
+      "pivaPlaceholder": "01234567890",
+      "sdi": "Código SDI (opcional, 7 caracteres)",
+      "sdiPlaceholder": "ABC1234"
+    },
+    "payment": {
+      "title": "Método de Pago",
+      "desc": "Elige tu método de pago. Tus datos de pago están protegidos y cifrados.",
+      "creditCard": "Tarjeta de Crédito/Débito",
+      "creditCardDesc": "Visa, Mastercard, American Express a través de Nexi XPay",
+      "paypal": "PayPal",
+      "paypalDesc": "Paga con PayPal, incluso en 3 cuotas sin intereses",
+      "secure": "🔒 Pago seguro gestionado por {provider}. Los datos de tu tarjeta nunca se almacenan en nuestros servidores."
+    },
+    "review": {
+      "title": "Resumen del Pedido",
+      "products": "Productos ({count})",
+      "qty": "Cant.: {qty} × {price}",
+      "shippingTo": "Envío a",
+      "billingTitle": "Facturación",
+      "payment": "Pago: {method}",
+      "paymentCard": "Tarjeta de Crédito",
+      "subtotal": "Subtotal",
+      "iva": "IVA ({rate})",
+      "shipping": "Envío",
+      "shippingFree": "Gratuito",
+      "total": "Total",
+      "pay": "Pagar {total}",
+      "processing": "Procesando..."
+    },
+    "confirmation": {
+      "title": "¡Pedido Confirmado!",
+      "thanks": "Gracias por tu pedido. Tu número de pedido es:",
+      "whatNow": "¿Qué sucede ahora?",
+      "step1": "Recibirás un email de confirmación con los detalles de tu pedido.",
+      "step2": "En cuanto se envíe el paquete, recibirás el código de seguimiento.",
+      "step3": "La factura electrónica se enviará al Sistema de Intercambio (SDI) y recibirás una copia PDF por email.",
+      "continueShopping": "Seguir Comprando",
+      "backHome": "Volver al Inicio"
+    }
+  },
+  "product": {
+    "breadcrumbCollection": "Colección",
+    "stock": {
+      "disponibile": "Disponible",
+      "su_ordinazione": "Bajo Pedido (2-3 semanas)",
+      "esaurito": "Agotado"
+    },
+    "stockBadge": {
+      "disponibile": "Disponible",
+      "su_ordinazione": "Bajo Pedido",
+      "esaurito": "Agotado"
+    },
+    "ivaIncluded": "IVA 22% incluido: {amount}",
+    "materials": "Materiales",
+    "dimensions": "Dimensiones",
+    "weight": "Peso",
+    "weightValue": "{weight} kg",
+    "quantity": "Cantidad",
+    "quantityDecrease": "Reducir cantidad",
+    "quantityIncrease": "Aumentar cantidad",
+    "total": "Total ({qty} pieza/s)",
+    "addToCart": "Añadir al Carrito",
+    "addedToCart": "✓ Añadido al Carrito",
+    "outOfStock": "Agotado",
+    "addToCartDisabled": "Agotado",
+    "galleryThumbnail": "Ver imagen",
+    "recommendations": "También te puede gustar",
+    "accordion": {
+      "shipping": {
+        "title": "Envío y Entrega",
+        "content1": "El envío en Italia es gratuito para todos los pedidos. El plazo de entrega es de 5-7 días laborables para productos disponibles y de 2-3 semanas para productos bajo pedido.",
+        "content2": "La entrega se realiza mediante mensajería exprés con cita previa. El mensajero contactará al cliente para organizar la entrega.",
+        "content3": "Envíos internacionales: contáctanos para un presupuesto personalizado."
+      },
+      "returns": {
+        "title": "Devoluciones y Derecho de Desistimiento",
+        "content1": "Tienes derecho de desistimiento en un plazo de 14 días desde la recepción del producto, según el Decreto Legislativo 21/2014.",
+        "content2Before": "Para ejercer tu derecho de desistimiento, rellena el formulario disponible ",
+        "content2Link": "aquí",
+        "content2After": " y envíanoslo en un plazo de 14 días.",
+        "content3": "El producto debe devolverse en su estado original, completo con embalaje y accesorios. Los gastos de devolución corren a cargo del cliente.",
+        "content4": "El reembolso se realizará en un plazo de 14 días desde la recepción de la devolución."
+      },
+      "warranty": {
+        "title": "Garantía",
+        "content1": "Todos los productos MPV Italia están cubiertos por una garantía legal de 2 años según el Decreto Legislativo 24/2002.",
+        "content2": "La garantía cubre defectos de fabricación y materiales. No cubre daños derivados del uso indebido o del desgaste normal.",
+        "content3Before": "Para solicitar asistencia en garantía, contáctanos por correo electrónico a ",
+        "content3After": "."
+      },
+      "care": {
+        "title": "Mantenimiento y Cuidado",
+        "content1": "El tapizado de terciopelo hidrorrepelente se puede limpiar con un paño húmedo y jabón neutro. Para manchas difíciles, utiliza un producto específico para telas.",
+        "content2": "El cojín extraíble se puede lavar a 30°C siguiendo las instrucciones de la etiqueta.",
+        "content3": "Pasa la aspiradora regularmente para eliminar el pelo y el polvo. Evita la exposición prolongada a la luz solar directa."
+      }
+    }
+  },
+  "plp": {
+    "title": "Colección",
+    "breadcrumb": "Colección",
+    "heading": "La Colección",
+    "desc": "Tres sofisticadas variantes de color, cada una hecha a mano en Italia con los mejores materiales para el máximo confort de tu mascota."
+  },
+  "legal": {
+    "cookie": {
+      "text": "Utilizamos cookies técnicas y, previo consentimiento, cookies de perfilado para mejorar tu experiencia. Para más información, consulta nuestra <link>Política de Privacidad</link>.",
+      "privacyLink": "Política de Privacidad",
+      "reject": "Rechazar Todas",
+      "accept": "Aceptar Todas"
+    },
+    "recesso": {
+      "title": "Formulario de Desistimiento",
+      "subtitle": "Según el Decreto Legislativo 21/2014, puedes ejercer tu derecho de desistimiento en un plazo de 14 días desde la recepción del producto.",
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "email": "Email",
+      "orderNumber": "Número de Pedido",
+      "orderPlaceholder": "ej. ORD-000001",
+      "date": "Fecha",
+      "reason": "Motivo del Desistimiento",
+      "reasonPlaceholder": "Indica el motivo del desistimiento (opcional)",
+      "submit": "Enviar Solicitud de Desistimiento",
+      "successTitle": "Solicitud Enviada",
+      "successDesc": "Tu solicitud de desistimiento para el pedido #{orderId} ha sido recibida. Recibirás un email de confirmación con las instrucciones de devolución."
+    }
+  },
+  "chat": {
+    "welcome": "¡Hola! Soy el asistente de MPV Italia. ¿Cómo puedo ayudarte? Pregúntame sobre productos, envíos, pagos y más.",
+    "error": "Lo siento, se ha producido un error. Inténtalo de nuevo más tarde.",
+    "header": "Asistente MPV",
+    "subheader": "Respuestas automáticas",
+    "inputPlaceholder": "Escribe un mensaje...",
+    "inputLabel": "Escribe un mensaje",
+    "sendLabel": "Enviar mensaje",
+    "openButton": "Abrir chat",
+    "closeButton": "Cerrar chat",
+    "messagesLabel": "Mensajes del chat"
+  },
+  "errors": {
+    "notFound": {
+      "title": "Página no encontrada",
+      "code": "404",
+      "desc": "La página que buscas no existe o ha sido movida.",
+      "ctaHome": "Volver al Inicio",
+      "ctaProducts": "Descubrir Productos"
+    },
+    "generic": {
+      "title": "Algo salió mal",
+      "desc": "Se ha producido un error inesperado. Inténtalo de nuevo más tarde.",
+      "cta": "Reintentar"
+    }
+  },
+  "emails": {
+    "orderConfirmation": {
+      "preview": "Confirmación de Pedido #{orderId} - MPV Italia",
+      "heading": "¡Gracias por tu pedido!",
+      "greeting": "Estimado/a {name},",
+      "confirmed": "Tu pedido #{orderId} ha sido confirmado con éxito.",
+      "total": "Total: {total}",
+      "trackingNotice": "Recibirás un email con el seguimiento del envío en cuanto tu pedido sea enviado.",
+      "footer": "MPV Italia — Muebles de lujo para mascotas"
+    },
+    "invoiceDelivery": {
+      "preview": "Factura #{number} - MPV Italia",
+      "heading": "Tu factura está lista",
+      "greeting": "Estimado/a {name},",
+      "body": "La factura de tu pedido #{orderId} (Factura #{number}) ha sido aceptada por el Sistema de Intercambio (SDI) y ya está disponible para descargar.",
+      "downloadButton": "Descargar Factura PDF",
+      "note": "Conserva esta factura para tus archivos. La facturación electrónica es obligatoria en Italia.",
+      "footer": "MPV Italia — Muebles de lujo para mascotas"
+    },
+    "shippingUpdate": {
+      "preview": "Actualización de envío pedido {orderId} — MPV Italia",
+      "headerTitle": "MPV Italia",
+      "headerSubtitle": "Muebles de lujo para mascotas",
+      "heading": "¡Tu pedido está en camino!",
+      "greeting": "Estimado/a {name},",
+      "body": "¡Buenas noticias! Tu pedido {orderId} ha sido enviado y está en camino.",
+      "trackingTitle": "Información de Envío",
+      "trackingCode": "Código de Seguimiento: {code}",
+      "estimatedDelivery": "Entrega Estimada: {date}",
+      "trackButton": "Rastrear tu Pedido",
+      "contact": "Si tienes preguntas sobre tu envío, contáctanos en {email}",
+      "footer": "© {year} MPV Italia. Todos los derechos reservados.",
+      "footerSub": "Muebles de lujo para mascotas — Made in Italy"
+    }
+  }
+}

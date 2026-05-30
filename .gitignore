@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build artifacts
+tsconfig.tsbuildinfo
+
+# Environment (secrets)
+.env.local
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# Logs
+*.log
+.server-log.txt
+
+# OMC / OpenClaude
+.omc/
+.openclaude/
+
+# Temp
+nul
+response.txt

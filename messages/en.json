@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "title": "MPV Italia — Luxury Pet Furniture",
+    "description": "Luxury furniture for pets. Italian handcrafted sofas designed for your pet's comfort and your home's elegance.",
+    "ogTitle": "MPV Italia — Luxury Pet Furniture",
+    "ogDescription": "Italian handcrafted sofas designed for your pet's comfort and your home's elegance.",
+    "twitterDescription": "Luxury furniture for pets. Italian handcrafted sofas.",
+    "cartTitle": "Cart — MPV Italia",
+    "cartDescription": "Review your cart. Luxury handcrafted sofas for pets.",
+    "checkoutTitle": "Checkout — MPV Italia",
+    "checkoutDescription": "Complete your order. Secure payment via Nexi XPay or PayPal.",
+    "confirmationTitle": "Order Confirmed — MPV Italia",
+    "confirmationDescription": "Your order has been confirmed successfully. You will receive an email with the details.",
+    "notFoundTitle": "Page Not Found (404) — MPV Italia",
+    "notFoundDescription": "The page you are looking for does not exist or has been moved."
+  },
+  "common": {
+    "skipToContent": "Skip to main content",
+    "madeInItaly": "Made in Italy · since 2024",
+    "ivaIncluded": "VAT included",
+    "scopri": "Discover",
+    "continua": "Continue",
+    "indietro": "Back",
+    "tornaHome": "Back to Home",
+    "carrello": "Cart",
+    "prodotti": "Collection",
+    "home": "Home",
+    "loading": "Loading..."
+  },
+  "header": {
+    "navHome": "Home",
+    "navCollezione": "Collection",
+    "cartLabel": "Cart",
+    "cartLabelWithItems": "Cart ({count} items)",
+    "mobileMenuOpen": "Open menu",
+    "mobileMenuClose": "Close menu",
+    "mobileDesc": "Luxury furniture for pets.",
+    "mobileDesc2": "Made in Italy."
+  },
+  "footer": {
+    "brandDesc": "Luxury furniture for pets. Italian handcrafted sofas designed for your pet's comfort and your home's elegance.",
+    "collectionTitle": "Collection",
+    "productNegro": "MPV Sofa — Black",
+    "productRosa": "MPV Sofa — Pink",
+    "productVerde": "MPV Sofa — Green",
+    "contactsTitle": "Contact",
+    "copyright": "© {year} MPV Italia. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "rightOfWithdrawal": "Right of Withdrawal"
+  },
+  "home": {
+    "hero": {
+      "overline": "Made in Italy · since 2024",
+      "title1": "Where Luxury",
+      "title2": "Meets Love",
+      "title3": "for Your Pet",
+      "subtitle": "Italian handcrafted sofas designed for your pet's comfort and your home's elegance.",
+      "ctaPrimary": "Discover the Collection",
+      "ctaSecondary": "Explore the Black Sofa",
+      "scroll": "Scroll"
+    },
+    "trust": {
+      "craftsmanship": "Italian Craftsmanship",
+      "warranty": "Legal Warranty",
+      "delivery": "Free Delivery in Italy",
+      "express": "Express Shipping"
+    },
+    "brandStory": {
+      "overline": "Our Story",
+      "title1": "Italian Craftsmanship",
+      "title2": "for Those Who Love",
+      "desc1": "MPV Italia was born from a passion for design and a love for animals. Each sofa is handcrafted in Italy by artisans who understand the importance of comfort and aesthetics.",
+      "desc2": "We use only premium materials — water-repellent velvet, orthopedic memory foam, solid wood — to create pieces that last a lifetime and blend perfectly into your home.",
+      "points": [
+        "Hand-selected premium materials",
+        "Ergonomic design for pet comfort",
+        "Free delivery throughout Italy",
+        "2-year legal warranty"
+      ]
+    },
+    "collection": {
+      "overline": "Collection",
+      "title": "Our Sofas",
+      "subtitle": "Three color variants to suit every style and personality.",
+      "cta": "View the Full Collection"
+    },
+    "craftsmanship": {
+      "overline": "Materials & Process",
+      "title1": "Quality You",
+      "title2": "Can Feel",
+      "desc": "Every component is selected to ensure durability, comfort, and elegance — from fabrics to structures, every detail matters.",
+      "materials": [
+        {
+          "name": "Water-Repellent Velvet",
+          "desc": "Premium fabric resistant to stains and hair, soft to the touch and easy to clean."
+        },
+        {
+          "name": "Orthopedic Memory Foam",
+          "desc": "High-density padding that adapts to your pet's shape, providing ergonomic support."
+        },
+        {
+          "name": "FSC Solid Wood",
+          "desc": "Certified beech wood frame, sturdy and sustainable — built to last a lifetime."
+        }
+      ]
+    },
+    "lifestyle": {
+      "desc": "Black Collection — Water-repellent velvet",
+      "title": "Moments of pure love,",
+      "title2": "wrapped in Italian comfort"
+    },
+    "testimonials": {
+      "overline": "What They Say About Us",
+      "title": "Words from Our Clients",
+      "placeholder": "[ Placeholder testimonials — to be replaced with verified reviews ]",
+      "items": [
+        {
+          "quote": "The MPV sofa has transformed our living room. Bella sleeps peacefully and guests can't believe it's a pet bed.",
+          "author": "Francesca M.",
+          "detail": "Milan — Black Sofa"
+        },
+        {
+          "quote": "Incredible quality, you can tell it's made with love. The fabric perfectly resists our golden retriever's fur.",
+          "author": "Marco T.",
+          "detail": "Rome — Pink Sofa"
+        },
+        {
+          "quote": "Finally a product that doesn't compromise home aesthetics. Our cat loves it as much as we do.",
+          "author": "Giulia R.",
+          "detail": "Florence — Green Sofa"
+        }
+      ]
+    },
+    "cta": {
+      "overline": "Your Pet Deserves the Best",
+      "title1": "Ready to Give",
+      "title2": "the Ultimate Comfort?",
+      "desc": "Discover the MPV Italia collection and give your pet the sofa they deserve. Free delivery and a 2-year warranty on every order.",
+      "priceFrom": "From {price} VAT included",
+      "cta": "Discover the Collection"
+    }
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": {
+      "title": "Your cart is empty",
+      "desc": "Browse our collection of handcrafted sofas and add your favorite products to the cart.",
+      "cta": "Discover Products"
+    },
+    "itemRemove": "Remove",
+    "itemRemoveLabel": "Remove {name} from cart",
+    "itemDecrease": "Remove one",
+    "itemIncrease": "Add one",
+    "summary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal",
+      "iva": "VAT ({rate})",
+      "shipping": "Shipping",
+      "shippingFree": "Free",
+      "total": "Total",
+      "ivaIncluded": "VAT {rate} included"
+    },
+    "checkoutCta": "Proceed to Checkout"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "steps": {
+      "shipping": "Shipping",
+      "billing": "Billing",
+      "payment": "Payment",
+      "review": "Review"
+    },
+    "ariaLabel": "Checkout progress",
+    "shipping": {
+      "title": "Shipping Address",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "address": "Address",
+      "addressPlaceholder": "Street and number",
+      "cap": "ZIP Code",
+      "capPlaceholder": "00000",
+      "city": "City",
+      "province": "Province",
+      "provincePlaceholder": "Select",
+      "phone": "Phone",
+      "phonePlaceholder": "+39 3XX XXX XXXX",
+      "country": "Country"
+    },
+    "billing": {
+      "title": "Billing Information",
+      "sameAsShipping": "Same as shipping",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "address": "Address",
+      "cap": "ZIP Code",
+      "city": "City",
+      "province": "Province",
+      "cf": "Tax ID Code (optional for B2C)",
+      "cfPlaceholder": "RSSMRA85M01H501Z",
+      "piva": "VAT Number (optional)",
+      "pivaPlaceholder": "01234567890",
+      "sdi": "SDI Code (optional, 7 characters)",
+      "sdiPlaceholder": "ABC1234"
+    },
+    "payment": {
+      "title": "Payment Method",
+      "desc": "Choose your payment method. Your payment data is protected and encrypted.",
+      "creditCard": "Credit/Debit Card",
+      "creditCardDesc": "Visa, Mastercard, American Express via Nexi XPay",
+      "paypal": "PayPal",
+      "paypalDesc": "Pay with PayPal, even in 3 interest-free installments",
+      "secure": "🔒 Secure payment processed by {provider}. Your card details are never stored on our servers."
+    },
+    "review": {
+      "title": "Order Review",
+      "products": "Products ({count})",
+      "qty": "Qty: {qty} × {price}",
+      "shippingTo": "Shipping to",
+      "billingTitle": "Billing",
+      "payment": "Payment: {method}",
+      "paymentCard": "Credit Card",
+      "subtotal": "Subtotal",
+      "iva": "VAT ({rate})",
+      "shipping": "Shipping",
+      "shippingFree": "Free",
+      "total": "Total",
+      "pay": "Pay {total}",
+      "processing": "Processing..."
+    },
+    "confirmation": {
+      "title": "Order Confirmed!",
+      "thanks": "Thank you for your order. Your order number is:",
+      "whatNow": "What happens next?",
+      "step1": "You will receive a confirmation email with your order details.",
+      "step2": "Once your package ships, you will receive the tracking code.",
+      "step3": "The electronic invoice will be sent to the Exchange System (SDI) and you will receive a PDF copy via email.",
+      "continueShopping": "Continue Shopping",
+      "backHome": "Back to Home"
+    }
+  },
+  "product": {
+    "breadcrumbCollection": "Collection",
+    "stock": {
+      "disponibile": "In Stock",
+      "su_ordinazione": "Made to Order (2-3 weeks)",
+      "esaurito": "Out of Stock"
+    },
+    "stockBadge": {
+      "disponibile": "In Stock",
+      "su_ordinazione": "Made to Order",
+      "esaurito": "Out of Stock"
+    },
+    "ivaIncluded": "VAT 22% included: {amount}",
+    "materials": "Materials",
+    "dimensions": "Dimensions",
+    "weight": "Weight",
+    "weightValue": "{weight} kg",
+    "quantity": "Quantity",
+    "quantityDecrease": "Decrease quantity",
+    "quantityIncrease": "Increase quantity",
+    "total": "Total ({qty} piece/s)",
+    "addToCart": "Add to Cart",
+    "addedToCart": "✓ Added to Cart",
+    "outOfStock": "Out of Stock",
+    "addToCartDisabled": "Out of Stock",
+    "galleryThumbnail": "View image",
+    "recommendations": "You May Also Like",
+    "accordion": {
+      "shipping": {
+        "title": "Shipping & Delivery",
+        "content1": "Shipping within Italy is free for all orders. Delivery time is 5-7 business days for in-stock items and 2-3 weeks for made-to-order items.",
+        "content2": "Delivery is carried out by express courier with scheduled appointment. The courier will contact the customer to arrange delivery.",
+        "content3": "International shipping: contact us for a personalized quote."
+      },
+      "returns": {
+        "title": "Returns & Right of Withdrawal",
+        "content1": "You have the right to withdraw within 14 days of receiving the product, pursuant to Legislative Decree 21/2014.",
+        "content2Before": "To exercise your right of withdrawal, fill out the form available ",
+        "content2Link": "here",
+        "content2After": " and send it to us within 14 days.",
+        "content3": "The product must be returned in its original condition, complete with packaging and accessories. Return shipping costs are borne by the customer.",
+        "content4": "The refund will be made within 14 days of receiving the return."
+      },
+      "warranty": {
+        "title": "Warranty",
+        "content1": "All MPV Italia products are covered by a 2-year legal warranty pursuant to Legislative Decree 24/2002.",
+        "content2": "The warranty covers manufacturing defects and materials. It does not cover damage resulting from improper use or normal wear and tear.",
+        "content3Before": "To request warranty assistance, contact us by email at ",
+        "content3After": "."
+      },
+      "care": {
+        "title": "Maintenance & Care",
+        "content1": "The water-repellent velvet upholstery can be cleaned with a damp cloth and mild soap. For stubborn stains, use a specific fabric cleaner.",
+        "content2": "The removable cushion can be washed at 30°C following the instructions on the label.",
+        "content3": "Vacuum regularly to remove hair and dust. Avoid prolonged exposure to direct sunlight."
+      }
+    }
+  },
+  "plp": {
+    "title": "Collection",
+    "breadcrumb": "Collection",
+    "heading": "The Collection",
+    "desc": "Three sophisticated color variants, each handcrafted in Italy with the finest materials for your pet's ultimate comfort."
+  },
+  "legal": {
+    "cookie": {
+      "text": "We use technical cookies and, with your consent, profiling cookies to improve your experience. For more information, see our <link>Privacy Policy</link>.",
+      "privacyLink": "Privacy Policy",
+      "reject": "Reject All",
+      "accept": "Accept All"
+    },
+    "recesso": {
+      "title": "Withdrawal Form",
+      "subtitle": "Pursuant to Legislative Decree 21/2014, you may exercise your right of withdrawal within 14 days of receiving the product.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "orderNumber": "Order Number",
+      "orderPlaceholder": "e.g. ORD-000001",
+      "date": "Date",
+      "reason": "Reason for Withdrawal",
+      "reasonPlaceholder": "State the reason for withdrawal (optional)",
+      "submit": "Submit Withdrawal Request",
+      "successTitle": "Request Submitted",
+      "successDesc": "Your withdrawal request for order #{orderId} has been received. You will receive a confirmation email with return instructions."
+    }
+  },
+  "chat": {
+    "welcome": "Hello! I'm the MPV Italia assistant. How can I help you? Ask me about products, shipping, payments and more.",
+    "error": "I'm sorry, an error occurred. Please try again later.",
+    "header": "MPV Assistant",
+    "subheader": "Automated responses",
+    "inputPlaceholder": "Type a message...",
+    "inputLabel": "Type a message",
+    "sendLabel": "Send message",
+    "openButton": "Open chat",
+    "closeButton": "Close chat",
+    "messagesLabel": "Chat messages"
+  },
+  "errors": {
+    "notFound": {
+      "title": "Page Not Found",
+      "code": "404",
+      "desc": "The page you are looking for does not exist or has been moved.",
+      "ctaHome": "Back to Home",
+      "ctaProducts": "Discover Products"
+    },
+    "generic": {
+      "title": "Something Went Wrong",
+      "desc": "An unexpected error occurred. Please try again later.",
+      "cta": "Try Again"
+    }
+  },
+  "emails": {
+    "orderConfirmation": {
+      "preview": "Order Confirmation #{orderId} - MPV Italia",
+      "heading": "Thank you for your order!",
+      "greeting": "Dear {name},",
+      "confirmed": "Your order #{orderId} has been confirmed successfully.",
+      "total": "Total: {total}",
+      "trackingNotice": "You will receive an email with the shipping tracking as soon as your order ships.",
+      "footer": "MPV Italia — Luxury furniture for pets"
+    },
+    "invoiceDelivery": {
+      "preview": "Invoice #{number} - MPV Italia",
+      "heading": "Your invoice is ready",
+      "greeting": "Dear {name},",
+      "body": "The invoice for your order #{orderId} (Invoice #{number}) has been accepted by the Exchange System (SDI) and is now available for download.",
+      "downloadButton": "Download Invoice PDF",
+      "note": "Keep this invoice for your records. Electronic invoicing is mandatory in Italy.",
+      "footer": "MPV Italia — Luxury furniture for pets"
+    },
+    "shippingUpdate": {
+      "preview": "Shipping update order {orderId} — MPV Italia",
+      "headerTitle": "MPV Italia",
+      "headerSubtitle": "Luxury Pet Furniture",
+      "heading": "Your order is on its way!",
+      "greeting": "Dear {name},",
+      "body": "Great news! Your order {orderId} has been shipped and is on its way to you.",
+      "trackingTitle": "Shipping Information",
+      "trackingCode": "Tracking Code: {code}",
+      "estimatedDelivery": "Estimated Delivery: {date}",
+      "trackButton": "Track Your Order",
+      "contact": "If you have questions about your shipment, contact us at {email}",
+      "footer": "© {year} MPV Italia. All rights reserved.",
+      "footerSub": "Luxury Pet Furniture — Made in Italy"
+    }
+  }
+}
