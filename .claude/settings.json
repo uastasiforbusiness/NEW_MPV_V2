@@ -1,0 +1,1 @@
+{"permissions":{"allow":["Edit","Write","Bash(pnpm lint:*)","Bash(pnpm build:*)","Bash(pnpm test:*)"]},"hooks":{"PostToolUse":[{"matcher":"Edit|Write","command":"pnpm lint --fix --quiet 2>/dev/null || true"}],"PreToolUse":[{"matcher":"Edit|Write","command":"echo \"$CLAUDE_FILE_PATHS\" | grep -q '\.env' && echo BLOCKED: Do not edit .env files && exit 1 || exit 0"}]}}

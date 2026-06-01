@@ -10,19 +10,12 @@ import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
   const headerT = useTranslations("header");
   const commonT = useTranslations("common");
   const itemCount = useCartStore((s) =>
     s.items.reduce((sum, i) => sum + i.quantity, 0)
   );
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -51,40 +44,30 @@ export function Header() {
       </a>
 
       <header
-        className={`sticky top-0 z-40 transition-all duration-500 header-entrance ${
-          scrolled
-            ? "bg-[var(--surface)]/97 backdrop-blur-lg shadow-[0_1px_0_0_var(--border)]"
-            : "bg-transparent"
-        }`}
+        className="sticky top-0 z-40 bg-[var(--surface)]/97 backdrop-blur-lg shadow-[0_1px_0_0_var(--border)] transition-all duration-500 header-entrance"
       >
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-          <div className="flex items-center justify-between h-[4.5rem] lg:h-20">
+        <div className="max-w-[90rem] mx-auto px-8 sm:px-10 lg:px-14">
+          <div className="flex items-center justify-between h-20 lg:h-22">
             {/* Logo mark + wordmark */}
             <Link
               href="/"
-              className="flex items-center gap-3 group relative logo-entrance"
+              className="flex items-center gap-3.5 group relative logo-entrance"
             >
               <Logo
-                variant={scrolled ? "light" : "dark"}
+                variant="light"
                 mode="compact"
-                size={52}
-                effect="gradient"
-                className={`h-12 sm:h-[3.25rem] w-auto transition-all duration-500 ${
-                  scrolled
-                    ? "drop-shadow-[0_0_8px_rgba(201,169,110,0.3)]"
-                    : "drop-shadow-[0_0_18px_rgba(201,169,110,0.65)]"
-                }`}
+                size={180}
+                round
+                className="transition-all duration-500 drop-shadow-[0_0_10px_rgba(201,169,110,0.35)]"
               />
-              <span className="hidden sm:flex flex-col leading-none">
+              <span className="flex flex-col leading-none">
                 <span
-                  className={`text-[1.05rem] font-semibold tracking-[0.22em] transition-colors duration-300 ${
-                    scrolled ? "text-[var(--foreground)]" : "text-white"
-                  }`}
+                  className="text-[1.15rem] sm:text-[1.35rem] font-bold tracking-[0.26em] text-[var(--foreground)] transition-colors duration-300"
                   style={{ fontFamily: "var(--font-display, var(--font-sans))" }}
                 >
                   MPV
                 </span>
-                <span className="text-[0.65rem] font-medium uppercase tracking-[0.28em] text-[var(--brand-gold)] mt-0.5">
+                <span className="text-[0.7rem] sm:text-[0.78rem] font-medium uppercase tracking-[0.32em] text-[var(--brand-gold)] mt-0.5 sm:mt-1">
                   Italia
                 </span>
               </span>
@@ -101,12 +84,8 @@ export function Header() {
                     aria-current={isActive ? "page" : undefined}
                     className={`relative text-[0.8rem] font-medium uppercase tracking-[0.18em] transition-colors duration-300 py-1 group ${
                       isActive
-                        ? scrolled
-                          ? "text-[var(--foreground)]"
-                          : "text-white"
-                        : scrolled
-                        ? "text-[var(--neutral-600)] hover:text-[var(--foreground)]"
-                        : "text-white/75 hover:text-white"
+                        ? "text-[var(--foreground)]"
+                        : "text-[var(--neutral-600)] hover:text-[var(--foreground)]"
                     }`}
                   >
                     {link.label}
@@ -128,11 +107,7 @@ export function Header() {
               {/* Cart */}
               <Link
                 href="/carrello"
-                className={`relative p-3 min-w-[44px] min-h-[44px] flex items-center justify-center transition-colors duration-300 ${
-                  scrolled
-                    ? "text-[var(--neutral-600)] hover:text-[var(--foreground)]"
-                    : "text-white/75 hover:text-white"
-                }`}
+                className="relative p-3 min-w-[44px] min-h-[44px] flex items-center justify-center text-[var(--neutral-600)] hover:text-[var(--foreground)] transition-colors duration-300"
                 aria-label={
                   itemCount > 0
                     ? headerT("cartLabelWithItems", { count: itemCount })
@@ -163,11 +138,7 @@ export function Header() {
               {/* Mobile Menu Toggle */}
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className={`md:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center transition-colors duration-300 ${
-                  scrolled
-                    ? "text-[var(--neutral-600)] hover:text-[var(--foreground)]"
-                    : "text-white/75 hover:text-white"
-                }`}
+                className="md:hidden p-3 min-w-[44px] min-h-[44px] flex items-center justify-center text-[var(--neutral-600)] hover:text-[var(--foreground)] transition-colors duration-300"
                 aria-label={
                   isMenuOpen
                     ? headerT("mobileMenuClose")
@@ -196,11 +167,9 @@ export function Header() {
           </div>
         </div>
 
-        {/* Gold accent line at bottom when scrolled */}
+        {/* Gold accent line at bottom */}
         <div
-          className={`absolute bottom-0 left-0 right-0 h-px transition-opacity duration-500 ${
-            scrolled ? "opacity-100" : "opacity-0"
-          }`}
+          className="absolute bottom-0 left-0 right-0 h-px opacity-100"
           style={{
             background:
               "linear-gradient(90deg, transparent, var(--brand-gold-muted) 30%, var(--brand-gold-muted) 70%, transparent)",
