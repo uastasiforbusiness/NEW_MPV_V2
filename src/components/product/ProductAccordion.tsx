@@ -1,4 +1,5 @@
 import { Accordion } from "@/components/ui";
+import { Link } from "@/i18n/navigation";
 import type { ReactNode } from "react";
 
 interface AccordionItem {
@@ -42,9 +43,9 @@ export function ProductAccordion({ items }: ProductAccordionProps) {
           </p>
           <p>
             Per esercitare il diritto di recesso, compila il modulo disponibile{" "}
-            <a href="/recesso/modulo" className="text-[var(--accent)] underline">
+            <Link href="/recesso/modulo" className="text-[var(--accent)] underline">
               qui
-            </a>{" "}
+            </Link>{" "}
             e inviacelo entro 14 giorni.
           </p>
           <p>

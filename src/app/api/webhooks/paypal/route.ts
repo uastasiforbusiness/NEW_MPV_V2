@@ -12,6 +12,7 @@ export async function POST(request: NextRequest) {
     console.log("[PayPal Webhook] Received:", {
       eventType: body.event_type,
       resourceId: body.resource?.id,
+      headerCount: Object.keys(headers).length,
     });
 
     // In production:

@@ -1,5 +1,3 @@
-import { formatCurrency } from "@/lib/iva";
-
 interface ProductJSONLDProps {
   name: string;
   description: string;

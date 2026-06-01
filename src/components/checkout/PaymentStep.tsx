@@ -94,9 +94,12 @@ export function PaymentStep({ onNext, onBack, total, onPaymentMethodChange }: Pa
         </label>
       </div>
 
-      <div className="bg-[var(--neutral-50)] rounded-[var(--radius-md)] p-4">
+      <div className="bg-[var(--neutral-50)] rounded-[var(--radius-md)] p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
         <p className="text-xs text-[var(--muted)]">
           {t("secure", { provider: paymentMethod === "nexi" ? "Nexi XPay" : "PayPal" })}
+        </p>
+        <p className="text-sm font-semibold text-[var(--accent)]">
+          Importo: €{total.toLocaleString("it-IT", { minimumFractionDigits: 2 })}
         </p>
       </div>
 

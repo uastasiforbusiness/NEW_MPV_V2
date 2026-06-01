@@ -741,13 +741,13 @@ LOGO EFFECTS — MPV Logo Harness — FIXED
   filter: drop-shadow(0 2px 16px rgba(201, 169, 110, 0.45));
 }
 
-/* Dark variant — brighter filter to compensate for dark backgrounds */
+/* Dark variant — makes the logo visible against dark backgrounds */
 .mpv-logo--dark-variant {
-  filter: brightness(1.1) contrast(1.05);
+  filter: brightness(1.6) contrast(1.3) drop-shadow(0 0 8px rgba(201, 169, 110, 0.15));
 }
 
 .mpv-logo--dark-variant:hover {
-  filter: brightness(1.15) contrast(1.08) drop-shadow(0 2px 16px rgba(201, 169, 110, 0.55));
+  filter: brightness(1.8) contrast(1.4) drop-shadow(0 2px 16px rgba(201, 169, 110, 0.55));
 }
 
 /* --- SHIMMER EFFECT --- */
@@ -1023,6 +1023,46 @@ SMOOTH SCROLL
 ============================================ */
 
 /* scroll-behavior handled via data-scroll-behavior attr on <html> for Next.js compat */
+
+/* ============================================
+SKELETON SHIMMER — Loading placeholder
+============================================ */
+
+.skeleton-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(201, 169, 110, 0.06) 40%,
+    rgba(201, 169, 110, 0.12) 50%,
+    rgba(201, 169, 110, 0.06) 60%,
+    transparent 100%
+  );
+  background-size: 250% 100%;
+  animation: skeleton-shimmer 1.8s ease-in-out infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-shimmer::after {
+    animation: none !important;
+  }
+}
+
+/* Hide scrollbar utility */
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { scrollbar-width: none; -ms-overflow-style: none; }
 
 /* ============================================
 PRINT STYLES

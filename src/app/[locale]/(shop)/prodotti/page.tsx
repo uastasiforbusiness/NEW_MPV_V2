@@ -18,7 +18,7 @@ export const revalidate = 300;
 
 export default async function PLPPage({ params }: { params: Promise<{ locale: string }> }) {
   const products = getAllProducts();
-  const { locale } = await params;
+  await params;
   const t = await getTranslations("plp");
   const prodT = await getTranslations("product");
   const commonT = await getTranslations("common");

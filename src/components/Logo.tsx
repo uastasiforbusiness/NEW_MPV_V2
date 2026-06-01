@@ -19,6 +19,8 @@ interface LogoProps {
     | "gradient"
     | "reveal"
     | "spin";
+  /** If true, loads SVG with a native clipPath circle */
+  round?: boolean;
 }
 
 /**
@@ -39,12 +41,17 @@ export function Logo({
   className = "",
   effect = "none",
   priority = false,
+  round = false,
 }: LogoProps) {
   // Determine which image to load based on the mode
   const src =
     mode === "full"
-      ? "/images/logo/LOGO_LUXURY_no_background.svg"
-      : "/images/logo/LOGO_no_background.svg";
+      ? round
+        ? "/images/logo/LOGO_LUXURY_round.svg"
+        : "/images/logo/LOGO_LUXURY_no_background.svg"
+      : round
+        ? "/images/logo/LOGO_round.svg"
+        : "/images/logo/LOGO_no_background.svg";
 
   const alt = "MPV Italia";
 
@@ -53,29 +60,47 @@ export function Logo({
   const effectClass =
     effect === "none" ? variantClass : `mpv-logo mpv-logo--${effect} ${variantClass}`;
 
+  // SVG viewBox is 1536×1024 (3:2 aspect ratio)
+  const SVG_ASPECT = 1024 / 1536; // ≈ 0.6667
+  const logoHeight = Math.round(size * SVG_ASPECT);
+
   const imageElement = (
     <Image
       src={src}
       alt={alt}
       width={size}
-      height={size}
+      height={logoHeight}
       priority={priority}
       unoptimized
-      className={`mpv-logo__svg object-contain ${className}`}
+      className={`mpv-logo__svg ${className}`}
       style={{
         width: size ? `${size}px` : "auto",
-        height: size ? `${size}px` : "auto",
+        height: logoHeight ? `${logoHeight}px` : "auto",
+        maxWidth: "100%",
         display: "block",
       }}
     />
   );
 
+  // Build container style: match image dimensions exactly
+  // Container must preserve the SVG viewBox ratio (1536×1024 = 3:2)
+  // so the clipPath circle renders as a perfect circle, not an ellipse.
+  const containerStyle: React.CSSProperties = {
+    width: size,
+    height: logoHeight,
+    maxWidth: "100%",
+    display: "inline-flex",
+    alignItems: "center",
+    justifyContent: "center",
+    flexShrink: 0,
+  };
+
   // For glow effect, add the glow ring behind the image
   if (effect === "glow") {
     return (
       <span
-        className={effectClass}
-        style={{ width: size, height: size, display: "inline-flex", alignItems: "center", justifyContent: "center" }}
+        className={`${effectClass} ${className}`}
+        style={containerStyle}
       >
         <span className="mpv-logo__glow-ring" />
         {imageElement}
@@ -83,29 +108,31 @@ export function Logo({
     );
   }
 
-  // For shimmer, pulse, float, reveal, spin — wrap in container with explicit size
+  // For shimmer, pulse, float, reveal, spin — wrap in container
   if (effect !== "none") {
     return (
       <span
-        className={effectClass}
-        style={{ width: size, height: size, display: "inline-flex", alignItems: "center", justifyContent: "center" }}
+        className={`${effectClass} ${className}`}
+        style={containerStyle}
       >
         {imageElement}
       </span>
     );
   }
 
-  // No effect — still apply variant class if dark, else return Image directly
-  if (variantClass) {
-    return (
-      <span
-        className={`mpv-logo ${variantClass}`}
-        style={{ width: size, height: size, display: "inline-flex", alignItems: "center", justifyContent: "center" }}
-      >
-        {imageElement}
-      </span>
-    );
-  }
+  // Always wrap in a container for consistent sizing, even with no effect
+  const containerClasses = [
+    "mpv-logo",
+    variantClass,
+    className,
+  ].filter(Boolean).join(" ");
 
-  return imageElement;
+  return (
+    <span
+      className={containerClasses}
+      style={containerStyle}
+    >
+      {imageElement}
+    </span>
+  );
 }

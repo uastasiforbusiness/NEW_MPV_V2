@@ -6,9 +6,9 @@ import esMessages from "../../messages/es.json";
 
 // Load email translations from statically imported JSON files
 const messagesByLocale: Record<string, { emails: Record<string, Record<string, string>> }> = {
-  it: itMessages as any,
-  en: enMessages as any,
-  es: esMessages as any,
+  it: itMessages as unknown as { emails: Record<string, Record<string, string>> },
+  en: enMessages as unknown as { emails: Record<string, Record<string, string>> },
+  es: esMessages as unknown as { emails: Record<string, Record<string, string>> },
 };
 
 const resend = new Resend(process.env.RESEND_API_KEY!);
@@ -46,7 +46,7 @@ export async function sendEmail({ to, subject, react }: SendEmailParams) {
  * Load email translations for a given locale from the messages JSON files.
  */
 function loadEmailTranslations(locale: string): Record<string, Record<string, string>> {
-  const validLocale = routing.locales.includes(locale as any) ? locale : routing.defaultLocale;
+  const validLocale = routing.locales.includes(locale as typeof routing.locales[number]) ? locale : routing.defaultLocale;
 
   const messages = messagesByLocale[validLocale] || messagesByLocale[routing.defaultLocale];
   return messages.emails;

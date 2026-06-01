@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - img "MPV Italia" [ref=e11]
+    - paragraph [ref=e13]: MPV Italia
+    - paragraph [ref=e15]: Luxury Pet Furniture
+  - link "Skip to main content" [ref=e18] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e19]:
+    - generic [ref=e21]:
+      - link "MPV Italia MPV Italia" [ref=e22] [cursor=pointer]:
+        - /url: /en
+        - img "MPV Italia" [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e26]: MPV
+          - generic [ref=e27]: Italia
+      - navigation [ref=e28]:
+        - link "Home" [ref=e29] [cursor=pointer]:
+          - /url: /en
+          - text: Home
+        - link "Collection" [ref=e30] [cursor=pointer]:
+          - /url: /en/prodotti
+          - text: Collection
+      - generic [ref=e31]:
+        - radiogroup "Lingua / Language / Idioma" [ref=e33]:
+          - radio "Italiano" [ref=e34] [cursor=pointer]: IT
+          - radio "English" [checked] [ref=e35] [cursor=pointer]: EN
+          - radio "Español" [ref=e36] [cursor=pointer]: ES
+        - link "Cart" [ref=e37] [cursor=pointer]:
+          - /url: /en/carrello
+          - img [ref=e38]
+  - main [ref=e41]:
+    - generic [ref=e42]:
+      - navigation "Breadcrumb" [ref=e43]:
+        - list [ref=e44]:
+          - listitem [ref=e45]:
+            - link "Home" [ref=e46] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e47]:
+            - img [ref=e48]
+            - generic [ref=e50]: Cart
+      - heading "Cart" [level=1] [ref=e51]
+  - contentinfo [ref=e54]:
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - img "MPV Italia" [ref=e62]
+            - generic [ref=e63]:
+              - generic [ref=e64]: MPV
+              - generic [ref=e65]: Italia
+          - paragraph [ref=e66]: Luxury furniture for pets. Italian handcrafted sofas designed for your pet's comfort and your home's elegance.
+          - paragraph [ref=e67]: Made in Italy · since 2024
+        - generic [ref=e68]:
+          - heading "Collection" [level=4] [ref=e69]
+          - list [ref=e70]:
+            - listitem [ref=e71]:
+              - link "MPV Sofa — Black" [ref=e72] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-negro
+            - listitem [ref=e73]:
+              - link "MPV Sofa — Pink" [ref=e74] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-rosa
+            - listitem [ref=e75]:
+              - link "MPV Sofa — Green" [ref=e76] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-verde
+        - generic [ref=e77]:
+          - heading "Contact" [level=4] [ref=e78]
+          - list [ref=e79]:
+            - listitem [ref=e80]:
+              - link "info@mpvitalia.it" [ref=e81] [cursor=pointer]:
+                - /url: mailto:info@mpvitalia.it
+            - listitem [ref=e82]:
+              - link "spedizioni@mpvitalia.it" [ref=e83] [cursor=pointer]:
+                - /url: mailto:spedizioni@mpvitalia.it
+            - listitem [ref=e84]:
+              - text: MPV Italia
+              - text: Via Artigianato, 1 — Milano
+      - generic [ref=e85]:
+        - paragraph [ref=e86]: © 2026 MPV Italia. All rights reserved.
+        - generic [ref=e87]:
+          - radiogroup "Lingua / Language / Idioma" [ref=e88]:
+            - radio "Italiano" [ref=e90] [cursor=pointer]: IT
+            - radio "English" [checked] [ref=e93] [cursor=pointer]: EN
+            - radio "Español" [ref=e96] [cursor=pointer]: ES
+          - generic [ref=e97]:
+            - link "Privacy Policy" [ref=e98] [cursor=pointer]:
+              - /url: https://www.iubenda.com/privacy-policy/your_id
+            - generic [ref=e99]: ·
+            - link "Cookie Policy" [ref=e100] [cursor=pointer]:
+              - /url: https://www.iubenda.com/cookie-policy/your_id
+            - generic [ref=e101]: ·
+            - link "Diritto di Recesso" [ref=e102] [cursor=pointer]:
+              - /url: /en/recesso/modulo
+  - button "Open chat" [ref=e103] [cursor=pointer]:
+    - img [ref=e104]
+  - generic "Notifications"

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { buildFatturaPAXml, sendInvoiceToSDI } from "@/lib/invoicetronic";
+import { buildFatturaPAXml } from "@/lib/invoicetronic";
 
 /**
  * Triggers invoice creation and SDI submission
@@ -64,7 +64,7 @@ export async function POST(request: NextRequest) {
 
     // Build XML
     const xml = buildFatturaPAXml(mockInvoiceData);
-    console.log("[Fatturazione] XML generated for invoice:", invoiceNumber);
+    console.log("[Fatturazione] XML generated for invoice:", invoiceNumber, `(${xml.length} characters)`);
 
     // In production: send to Invoicetronic
     // const result = await sendInvoiceToSDI(xml, invoiceNumber);

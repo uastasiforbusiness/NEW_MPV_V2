@@ -76,6 +76,12 @@ export default function ShippingUpdateEmail({
               <Section style={trackingBox}>
                 <Text style={trackingTitleStyle}>{trackingTitle}</Text>
                 <Text style={trackingItem}>
+                  <strong>ID Ordine:</strong> {orderId}
+                </Text>
+                <Text style={trackingItem}>
+                  <strong>Cliente:</strong> {customerName}
+                </Text>
+                <Text style={trackingItem}>
                   <strong>{trackingCodeLabel}</strong> {trackingCode}
                 </Text>
                 {estimatedDelivery && (
@@ -209,13 +215,6 @@ const button = {
   textAlign: "center" as const,
   display: "inline-block",
   padding: "14px 32px",
-};
-
-const sectionTitle = {
-  color: "#1A1A1A",
-  fontSize: "18px",
-  fontWeight: "600",
-  margin: "0 0 16px",
 };
 
 const footerSectionStyle = {

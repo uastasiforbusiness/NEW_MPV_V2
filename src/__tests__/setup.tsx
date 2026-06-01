@@ -21,10 +21,10 @@ vi.mock("next-intl", () => ({
       }
       return fullKey;
     };
-    t.rich = (_key: string, _components: Record<string, unknown>) => _key;
+    t.rich = (_key: string) => _key;
     t.markup = (key: string) => key;
     t.raw = (key: string) => key;
-    t.has = (key: string) => true;
+    t.has = () => true;
     t.namespace = () => t;
     return t;
   },
@@ -63,7 +63,9 @@ vi.mock("@/i18n/navigation", () => ({
 
 vi.mock("next/image", () => ({
   default: (props: Record<string, unknown>) => {
-    const { fill, priority, ...rest } = props;
+    const rest = { ...props };
+    delete rest.fill;
+    delete rest.priority;
     return React.createElement("img", rest as React.ImgHTMLAttributes<HTMLImageElement>);
   },
 }));

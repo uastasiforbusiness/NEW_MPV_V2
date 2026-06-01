@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { Button } from "@/components/ui";
 
 export default function Error({
@@ -9,6 +10,9 @@ export default function Error({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
+  useEffect(() => {
+    console.error("[Root Error Boundary]:", error);
+  }, [error]);
   return (
     <div className="min-h-screen flex items-center justify-center bg-[var(--brand-cream)]">
       <div className="text-center max-w-md px-8">

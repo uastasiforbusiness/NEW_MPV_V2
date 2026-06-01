@@ -133,7 +133,7 @@ export function LogoSplash() {
             }}
           />
           <div className="relative z-[1]">
-            <Logo variant="dark" mode="full" size={120} effect="reveal" priority />
+            <Logo variant="dark" mode="full" size={120} priority />
           </div>
         </div>
 
@@ -221,17 +221,33 @@ function RippleRings({ visible }: { visible: boolean }) {
 /* ------------------------------------------------------------------ */
 
 function Particles({ visible }: { visible: boolean }) {
-  if (!visible) return null;
+  // Generar partículas solo en el cliente para evitar errores de hidratación
+  // por Math.random() en SSR
+  const [particles, setParticles] = useState<Array<{
+    id: number;
+    left: string;
+    delay: string;
+    duration: string;
+    size: string;
+    drift: string;
+    opacity: number;
+  }> | null>(null);
 
-  const particles = Array.from({ length: 30 }, (_, i) => ({
-    id: i,
-    left: `${10 + Math.random() * 80}%`,
-    delay: `${Math.random() * 2.8}s`,
-    duration: `${3 + Math.random() * 4.5}s`,
-    size: `${0.8 + Math.random() * 2.5}px`,
-    drift: `${-35 + Math.random() * 70}px`,
-    opacity: 0.4 + Math.random() * 0.4,
-  }));
+  useEffect(() => {
+    setParticles(
+      Array.from({ length: 30 }, (_, i) => ({
+        id: i,
+        left: `${10 + Math.random() * 80}%`,
+        delay: `${Math.random() * 2.8}s`,
+        duration: `${3 + Math.random() * 4.5}s`,
+        size: `${0.8 + Math.random() * 2.5}px`,
+        drift: `${-35 + Math.random() * 70}px`,
+        opacity: 0.4 + Math.random() * 0.4,
+      }))
+    );
+  }, []);
+
+  if (!visible || !particles) return null;
 
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">

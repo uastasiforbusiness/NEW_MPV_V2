@@ -49,10 +49,8 @@ export default function CheckoutPage() {
 
   const [paymentMethod, setPaymentMethod] = useState<string>("nexi");
 
-  // Hydrate the store
   useEffect(() => {
     useCartStore.persist.rehydrate();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Redirect if cart is empty

@@ -2,7 +2,6 @@
 
 import { useState, useRef, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { Button } from "@/components/ui";
 
 interface Message {
   role: "user" | "assistant";
@@ -48,6 +47,7 @@ export function ChatWidget() {
         { role: "assistant", content: data.response },
       ]);
     } catch (error) {
+      console.error("[Chat Widget Error]:", error);
       setMessages((prev) => [
         ...prev,
         {

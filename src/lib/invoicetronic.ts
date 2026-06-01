@@ -174,6 +174,7 @@ export async function sendInvoiceToSDI(
   xmlContent: string,
   invoiceNumber: string
 ) {
+  console.log(`[Invoicetronic] Sending invoice ${invoiceNumber} to SDI...`);
   const response = await fetch(`${INVOICETRONIC_BASE_URL}/invoices`, {
     method: "POST",
     headers: {

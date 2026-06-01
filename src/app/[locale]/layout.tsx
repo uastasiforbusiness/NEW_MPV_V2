@@ -105,6 +105,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       lang={locale}
       data-scroll-behavior="smooth"
       className={`${cormorant.variable} ${montserrat.variable}`}
+      suppressHydrationWarning
     >
       <body className="grain min-h-screen flex flex-col bg-[var(--background)] text-[var(--foreground)] font-[var(--font-sans)]">
         <NextIntlClientProvider messages={messages}>

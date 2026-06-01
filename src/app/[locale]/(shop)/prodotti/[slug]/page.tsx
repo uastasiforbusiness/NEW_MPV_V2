@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: PDPPageProps): Promise<Metadata> {
-  const { slug, locale } = await params;
+  const { slug } = await params;
   const product = getProductBySlug(slug);
 
   if (!product) return {};

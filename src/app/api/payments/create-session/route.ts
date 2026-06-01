@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
     // }
 
     // Mock response for development
-    console.log("[Payment Session] Created:", { method, orderId, amount });
+    console.log("[Payment Session] Created:", { method, orderId, amount, customerEmail, customerName });
 
     return NextResponse.json({
       sessionId: `sess_${Date.now()}`,

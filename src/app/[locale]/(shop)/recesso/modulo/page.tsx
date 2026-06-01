@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default async function RecessoPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function RecessoPage() {
   const t = await getTranslations("legal.recesso");
 
   return (

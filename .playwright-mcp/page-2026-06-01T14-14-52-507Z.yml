@@ -1,0 +1,123 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - img "MPV Italia" [ref=e11]
+    - paragraph [ref=e13]: MPV Italia
+    - paragraph [ref=e15]: Luxury Pet Furniture
+  - link "Skip to main content" [ref=e18] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e19]:
+    - generic [ref=e21]:
+      - link "MPV Italia MPV Italia" [ref=e22] [cursor=pointer]:
+        - /url: /en
+        - img "MPV Italia" [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e26]: MPV
+          - generic [ref=e27]: Italia
+      - navigation [ref=e28]:
+        - link "Home" [ref=e29] [cursor=pointer]:
+          - /url: /en
+          - text: Home
+        - link "Collection" [ref=e30] [cursor=pointer]:
+          - /url: /en/prodotti
+          - text: Collection
+      - generic [ref=e31]:
+        - radiogroup "Lingua / Language / Idioma" [ref=e33]:
+          - radio "Italiano" [ref=e34] [cursor=pointer]: IT
+          - radio "English" [checked] [ref=e35] [cursor=pointer]: EN
+          - radio "Español" [ref=e36] [cursor=pointer]: ES
+        - link "Cart" [ref=e37] [cursor=pointer]:
+          - /url: /en/carrello
+          - img [ref=e38]
+  - main [ref=e41]:
+    - generic [ref=e42]:
+      - navigation "Breadcrumb" [ref=e43]:
+        - list [ref=e44]:
+          - listitem [ref=e45]:
+            - link "Home" [ref=e46] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e47]:
+            - img [ref=e48]
+            - generic [ref=e50]: Withdrawal Form
+      - generic [ref=e51]:
+        - heading "Withdrawal Form" [level=1] [ref=e52]
+        - paragraph [ref=e53]: Pursuant to Legislative Decree 21/2014, you may exercise your right of withdrawal within 14 days of receiving the product.
+      - generic [ref=e55]:
+        - heading "Withdrawal Form" [level=2] [ref=e56]
+        - paragraph [ref=e57]: Pursuant to Legislative Decree 21/2014, you may exercise your right of withdrawal within 14 days of receiving the product.
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - generic [ref=e61]: First Name
+              - textbox "First Name" [ref=e62]
+            - generic [ref=e63]:
+              - generic [ref=e64]: Last Name
+              - textbox "Last Name" [ref=e65]
+          - generic [ref=e66]:
+            - generic [ref=e67]: Email
+            - textbox "Email" [ref=e68]
+          - generic [ref=e69]:
+            - generic [ref=e70]: Order Number
+            - textbox "Order Number" [ref=e71]:
+              - /placeholder: e.g. ORD-000001
+          - generic [ref=e72]:
+            - generic [ref=e73]: Date
+            - textbox "Date" [ref=e74]: 2026-06-01
+          - generic [ref=e75]:
+            - generic [ref=e76]: Reason for Withdrawal
+            - textbox "Reason for Withdrawal" [ref=e77]:
+              - /placeholder: State the reason for withdrawal (optional)
+          - button "Submit Withdrawal Request" [ref=e79] [cursor=pointer]
+  - contentinfo [ref=e80]:
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - img "MPV Italia" [ref=e88]
+            - generic [ref=e89]:
+              - generic [ref=e90]: MPV
+              - generic [ref=e91]: Italia
+          - paragraph [ref=e92]: Luxury furniture for pets. Italian handcrafted sofas designed for your pet's comfort and your home's elegance.
+          - paragraph [ref=e93]: Made in Italy · since 2024
+        - generic [ref=e94]:
+          - heading "Collection" [level=4] [ref=e95]
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - link "MPV Sofa — Black" [ref=e98] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-negro
+            - listitem [ref=e99]:
+              - link "MPV Sofa — Pink" [ref=e100] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-rosa
+            - listitem [ref=e101]:
+              - link "MPV Sofa — Green" [ref=e102] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-verde
+        - generic [ref=e103]:
+          - heading "Contact" [level=4] [ref=e104]
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - link "info@mpvitalia.it" [ref=e107] [cursor=pointer]:
+                - /url: mailto:info@mpvitalia.it
+            - listitem [ref=e108]:
+              - link "spedizioni@mpvitalia.it" [ref=e109] [cursor=pointer]:
+                - /url: mailto:spedizioni@mpvitalia.it
+            - listitem [ref=e110]:
+              - text: MPV Italia
+              - text: Via Artigianato, 1 — Milano
+      - generic [ref=e111]:
+        - paragraph [ref=e112]: © 2026 MPV Italia. All rights reserved.
+        - generic [ref=e113]:
+          - radiogroup "Lingua / Language / Idioma" [ref=e114]:
+            - radio "Italiano" [ref=e116] [cursor=pointer]: IT
+            - radio "English" [checked] [ref=e119] [cursor=pointer]: EN
+            - radio "Español" [ref=e122] [cursor=pointer]: ES
+          - generic [ref=e123]:
+            - link "Privacy Policy" [ref=e124] [cursor=pointer]:
+              - /url: https://www.iubenda.com/privacy-policy/your_id
+            - generic [ref=e125]: ·
+            - link "Cookie Policy" [ref=e126] [cursor=pointer]:
+              - /url: https://www.iubenda.com/cookie-policy/your_id
+            - generic [ref=e127]: ·
+            - link "Diritto di Recesso" [ref=e128] [cursor=pointer]:
+              - /url: /en/recesso/modulo
+  - button "Open chat" [ref=e129] [cursor=pointer]:
+    - img [ref=e130]
+  - generic "Notifications"

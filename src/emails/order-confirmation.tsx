@@ -44,7 +44,13 @@ export default function OrderConfirmationEmail({
           <Text style={text}>{greeting}</Text>
           <Text style={text}>{confirmed}</Text>
           <Section style={summary}>
-            <Text style={summaryText}>{totalLabel}</Text>
+            <Text style={summaryTitle}>Riepilogo Ordine</Text>
+            <Text style={summaryDetail}>
+              <strong>ID Ordine:</strong> {orderId}<br />
+              <strong>Cliente:</strong> {customerName}<br />
+              <strong>Totale:</strong> {total}
+            </Text>
+            <Text style={summaryText} className="mt-2">{totalLabel}: {total}</Text>
           </Section>
           <Text style={text}>{trackingNotice}</Text>
           <Text style={footerStyle}>{footer}</Text>
@@ -94,6 +100,22 @@ const summaryText = {
   fontSize: "18px",
   fontWeight: "600",
   margin: "0",
+};
+
+const summaryTitle = {
+  color: "#1A1A1A",
+  fontSize: "16px",
+  fontWeight: "600",
+  marginBottom: "12px",
+  textTransform: "uppercase" as const,
+  letterSpacing: "0.05em",
+};
+
+const summaryDetail = {
+  color: "#403E3A",
+  fontSize: "14px",
+  lineHeight: "1.6",
+  marginBottom: "16px",
 };
 
 const footerStyle = {

@@ -1,0 +1,134 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - img "MPV Italia" [ref=e11]
+    - paragraph [ref=e13]: MPV Italia
+    - paragraph [ref=e15]: Luxury Pet Furniture
+  - link "Skip to main content" [ref=e18] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e19]:
+    - generic [ref=e21]:
+      - link "MPV Italia MPV Italia" [ref=e22] [cursor=pointer]:
+        - /url: /en
+        - img "MPV Italia" [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e26]: MPV
+          - generic [ref=e27]: Italia
+      - navigation [ref=e28]:
+        - link "Home" [ref=e29] [cursor=pointer]:
+          - /url: /en
+          - text: Home
+        - link "Collection" [ref=e30] [cursor=pointer]:
+          - /url: /en/prodotti
+          - text: Collection
+      - generic [ref=e32]:
+        - radiogroup "Lingua / Language / Idioma" [ref=e34]:
+          - radio "Italiano" [ref=e35] [cursor=pointer]: IT
+          - radio "English" [checked] [ref=e36] [cursor=pointer]: EN
+          - radio "Español" [ref=e37] [cursor=pointer]: ES
+        - link "Cart" [ref=e38] [cursor=pointer]:
+          - /url: /en/carrello
+          - img [ref=e39]
+  - main [ref=e42]:
+    - generic [ref=e43]:
+      - navigation "Breadcrumb" [ref=e44]:
+        - list [ref=e45]:
+          - listitem [ref=e46]:
+            - link "Home" [ref=e47] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e48]:
+            - img [ref=e49]
+            - generic [ref=e51]: Collection
+      - generic [ref=e52]:
+        - heading "The Collection" [level=1] [ref=e53]
+        - paragraph [ref=e54]: Three sophisticated color variants, each handcrafted in Italy with the finest materials for your pet's ultimate comfort.
+      - generic [ref=e55]:
+        - link "Divano MPV — Nero In Stock Discover Nero Divano MPV — Nero 4200,00 € VAT included" [ref=e56] [cursor=pointer]:
+          - /url: /en/prodotti/sofa-negro
+          - generic [ref=e57]:
+            - img "Divano MPV — Nero" [ref=e58]
+            - generic [ref=e60]: In Stock
+            - generic [ref=e65]: Discover
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: Nero
+            - heading "Divano MPV — Nero" [level=3] [ref=e68]
+            - generic [ref=e69]:
+              - generic [ref=e70]: 4200,00 €
+              - generic [ref=e71]: VAT included
+        - link "Divano MPV — Rosa In Stock Discover Rosa Divano MPV — Rosa 4500,00 € VAT included" [ref=e72] [cursor=pointer]:
+          - /url: /en/prodotti/sofa-rosa
+          - generic [ref=e73]:
+            - img "Divano MPV — Rosa" [ref=e74]
+            - generic [ref=e76]: In Stock
+            - generic [ref=e81]: Discover
+          - generic [ref=e82]:
+            - paragraph [ref=e83]: Rosa
+            - heading "Divano MPV — Rosa" [level=3] [ref=e84]
+            - generic [ref=e85]:
+              - generic [ref=e86]: 4500,00 €
+              - generic [ref=e87]: VAT included
+        - link "Divano MPV — Verde Made to Order (2-3 weeks) Discover Verde Salvia Divano MPV — Verde 3800,00 € VAT included" [ref=e88] [cursor=pointer]:
+          - /url: /en/prodotti/sofa-verde
+          - generic [ref=e89]:
+            - img "Divano MPV — Verde" [ref=e90]
+            - generic [ref=e92]: Made to Order (2-3 weeks)
+            - generic [ref=e97]: Discover
+          - generic [ref=e98]:
+            - paragraph [ref=e99]: Verde Salvia
+            - heading "Divano MPV — Verde" [level=3] [ref=e100]
+            - generic [ref=e101]:
+              - generic [ref=e102]: 3800,00 €
+              - generic [ref=e103]: VAT included
+  - contentinfo [ref=e104]:
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - img "MPV Italia" [ref=e112]
+            - generic [ref=e113]:
+              - generic [ref=e114]: MPV
+              - generic [ref=e115]: Italia
+          - paragraph [ref=e116]: Luxury furniture for pets. Italian handcrafted sofas designed for your pet's comfort and your home's elegance.
+          - paragraph [ref=e117]: Made in Italy · since 2024
+        - generic [ref=e118]:
+          - heading "Collection" [level=4] [ref=e119]
+          - list [ref=e120]:
+            - listitem [ref=e121]:
+              - link "MPV Sofa — Black" [ref=e122] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-negro
+            - listitem [ref=e123]:
+              - link "MPV Sofa — Pink" [ref=e124] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-rosa
+            - listitem [ref=e125]:
+              - link "MPV Sofa — Green" [ref=e126] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-verde
+        - generic [ref=e127]:
+          - heading "Contact" [level=4] [ref=e128]
+          - list [ref=e129]:
+            - listitem [ref=e130]:
+              - link "info@mpvitalia.it" [ref=e131] [cursor=pointer]:
+                - /url: mailto:info@mpvitalia.it
+            - listitem [ref=e132]:
+              - link "spedizioni@mpvitalia.it" [ref=e133] [cursor=pointer]:
+                - /url: mailto:spedizioni@mpvitalia.it
+            - listitem [ref=e134]:
+              - text: MPV Italia
+              - text: Via Artigianato, 1 — Milano
+      - generic [ref=e135]:
+        - paragraph [ref=e136]: © 2026 MPV Italia. All rights reserved.
+        - generic [ref=e137]:
+          - radiogroup "Lingua / Language / Idioma" [ref=e138]:
+            - radio "Italiano" [ref=e140] [cursor=pointer]: IT
+            - radio "English" [checked] [ref=e143] [cursor=pointer]: EN
+            - radio "Español" [ref=e146] [cursor=pointer]: ES
+          - generic [ref=e147]:
+            - link "Privacy Policy" [ref=e148] [cursor=pointer]:
+              - /url: https://www.iubenda.com/privacy-policy/your_id
+            - generic [ref=e149]: ·
+            - link "Cookie Policy" [ref=e150] [cursor=pointer]:
+              - /url: https://www.iubenda.com/cookie-policy/your_id
+            - generic [ref=e151]: ·
+            - link "Diritto di Recesso" [ref=e152] [cursor=pointer]:
+              - /url: /en/recesso/modulo
+  - button "Open chat" [ref=e153] [cursor=pointer]:
+    - img [ref=e154]
+  - generic "Notifications"

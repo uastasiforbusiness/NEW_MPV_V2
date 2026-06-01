@@ -1,3 +1,5 @@
+import { Link } from "@/i18n/navigation";
+
 export function PrivacyLinks() {
   return (
     <div className="flex items-center gap-4 text-xs text-[var(--muted)]">
@@ -19,12 +21,12 @@ export function PrivacyLinks() {
         Cookie Policy
       </a>
       <span aria-hidden="true">·</span>
-      <a
+      <Link
         href="/recesso/modulo"
         className="hover:text-[var(--accent)] transition-colors"
       >
         Diritto di Recesso
-      </a>
+      </Link>
     </div>
   );
 }

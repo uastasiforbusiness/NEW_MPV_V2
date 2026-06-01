@@ -1,0 +1,230 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "MPV Italia MPV Italia" [ref=e6] [cursor=pointer]:
+        - /url: /en
+        - img "MPV Italia" [ref=e8]
+        - generic [ref=e9]:
+          - generic [ref=e10]: MPV
+          - generic [ref=e11]: Italia
+      - navigation [ref=e12]:
+        - link "Home" [ref=e13] [cursor=pointer]:
+          - /url: /en
+          - text: Home
+        - link "Collection" [ref=e14] [cursor=pointer]:
+          - /url: /en/prodotti
+          - text: Collection
+      - generic [ref=e16]:
+        - radiogroup "Lingua / Language / Idioma" [ref=e18]:
+          - radio "Italiano" [ref=e19] [cursor=pointer]: IT
+          - radio "English" [checked] [ref=e20] [cursor=pointer]: EN
+          - radio "Español" [ref=e21] [cursor=pointer]: ES
+        - link "Cart" [ref=e22] [cursor=pointer]:
+          - /url: /en/carrello
+          - img [ref=e23]
+  - main [ref=e26]:
+    - generic [ref=e27]:
+      - navigation "Breadcrumb" [ref=e28]:
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - link "Home" [ref=e31] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e32]:
+            - img [ref=e33]
+            - link "Collection" [ref=e35] [cursor=pointer]:
+              - /url: /prodotti
+          - listitem [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Divano MPV — Nero
+      - generic [ref=e40]:
+        - generic [ref=e42]:
+          - button "Zoom Divano MPV — Nero" [ref=e43] [cursor=pointer]:
+            - img "Divano MPV Nero — Vista principale" [ref=e44]
+            - generic [ref=e45]:
+              - img [ref=e46]
+              - generic [ref=e49]: Zoom
+          - generic [ref=e50]:
+            - 'button "View image 1: Divano MPV Nero — Vista principale" [ref=e51] [cursor=pointer]':
+              - img "Divano MPV Nero — Vista principale" [ref=e52]
+            - 'button "View image 2: Divano MPV Nero — Con animale domestico" [ref=e53] [cursor=pointer]':
+              - img "Divano MPV Nero — Con animale domestico" [ref=e54]
+            - 'button "View image 3: Divano MPV Nero — Padrona accarezza il cane" [ref=e55] [cursor=pointer]':
+              - img "Divano MPV Nero — Padrona accarezza il cane" [ref=e56]
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e60]: Nero
+            - generic [ref=e61]: "|"
+            - generic [ref=e62]: ✓ In Stock
+          - generic [ref=e63]:
+            - paragraph [ref=e64]: 4200,00 €
+            - paragraph [ref=e65]: "VAT 22% included: 924,00 €"
+          - paragraph [ref=e66]: L'eleganza senza tempo del nero per il tuo pet. Realizzato a mano in Italia con tessuti premium e una struttura in legno massello che garantisce durabilità e comfort. Il rivestimento in velluto idrorepellente protegge da macchie e peli, mentre l'imbottitura in memory foam ad alta densità offre un supporto ergonomico per il tuo animale. Ogni divano è rifinito con dettagli artigianali — cuciture rinforzate, gambe in metallo satinato e un cuscino rimovibile per una facile pulizia.
+          - generic [ref=e67]:
+            - heading "Materials" [level=4] [ref=e68]
+            - paragraph [ref=e69]: Velluto idrorepellente premium, memory foam ad alta densità, legno massello di faggio, gambe in metallo satinato
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - heading "Dimensions" [level=4] [ref=e72]
+              - paragraph [ref=e73]: "120 cm (L) x 70 cm (P) x 50 cm (H) — Area letto: 80 cm x 60 cm"
+            - generic [ref=e74]:
+              - heading "Weight" [level=4] [ref=e75]
+              - paragraph [ref=e76]: 25 kg
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: Quantity
+              - group "Quantity" [ref=e80]:
+                - button "Decrease quantity" [ref=e81] [cursor=pointer]: −
+                - status [ref=e82]: "1"
+                - button "Increase quantity" [ref=e83] [cursor=pointer]: +
+            - generic [ref=e84]:
+              - generic [ref=e85]: Total (1 piece/s)
+              - generic [ref=e86]: 5124,00 €
+            - button "Add to Cart" [ref=e87] [cursor=pointer]
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - button "Shipping & Delivery" [ref=e92] [cursor=pointer]:
+            - generic [ref=e93]: Shipping & Delivery
+            - img [ref=e94]
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: Shipping within Italy is free for all orders. Delivery time is 5-7 business days for in-stock items and 2-3 weeks for made-to-order items.
+            - paragraph [ref=e99]: Delivery is carried out by express courier with scheduled appointment. The courier will contact the customer to arrange delivery.
+            - paragraph [ref=e100]: "International shipping: contact us for a personalized quote."
+        - generic [ref=e101]:
+          - button "Returns & Right of Withdrawal" [ref=e102] [cursor=pointer]:
+            - generic [ref=e103]: Returns & Right of Withdrawal
+            - img [ref=e104]
+          - generic [ref=e107]:
+            - paragraph [ref=e108]: You have the right to withdraw within 14 days of receiving the product, pursuant to Legislative Decree 21/2014.
+            - paragraph [ref=e109]:
+              - text: To exercise your right of withdrawal, fill out the form available
+              - link [ref=e110] [cursor=pointer]:
+                - /url: /en/recesso/modulo
+                - text: here
+              - text: and send it to us within 14 days.
+            - paragraph [ref=e111]: The product must be returned in its original condition, complete with packaging and accessories. Return shipping costs are borne by the customer.
+            - paragraph [ref=e112]: The refund will be made within 14 days of receiving the return.
+        - generic [ref=e113]:
+          - button "Warranty" [ref=e114] [cursor=pointer]:
+            - generic [ref=e115]: Warranty
+            - img [ref=e116]
+          - generic [ref=e119]:
+            - paragraph [ref=e120]: All MPV Italia products are covered by a 2-year legal warranty pursuant to Legislative Decree 24/2002.
+            - paragraph [ref=e121]: The warranty covers manufacturing defects and materials. It does not cover damage resulting from improper use or normal wear and tear.
+            - paragraph [ref=e122]:
+              - text: To request warranty assistance, contact us by email at
+              - link [ref=e123] [cursor=pointer]:
+                - /url: mailto:assistenza@mpvitalia.it
+                - text: assistenza@mpvitalia.it
+              - text: .
+        - generic [ref=e124]:
+          - button "Maintenance & Care" [ref=e125] [cursor=pointer]:
+            - generic [ref=e126]: Maintenance & Care
+            - img [ref=e127]
+          - generic [ref=e130]:
+            - paragraph [ref=e131]: The water-repellent velvet upholstery can be cleaned with a damp cloth and mild soap. For stubborn stains, use a specific fabric cleaner.
+            - paragraph [ref=e132]: The removable cushion can be washed at 30°C following the instructions on the label.
+            - paragraph [ref=e133]: Vacuum regularly to remove hair and dust. Avoid prolonged exposure to direct sunlight.
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - heading "You May Also Like" [level=2] [ref=e137]
+          - generic [ref=e138]:
+            - button "Previous" [disabled] [ref=e139] [cursor=pointer]:
+              - img [ref=e140]
+            - button "Next" [disabled] [ref=e142] [cursor=pointer]:
+              - img [ref=e143]
+        - generic [ref=e145]:
+          - link "Divano MPV — Rosa Disponibile Scopri Rosa Divano MPV — Rosa 4500,00 € IVA inclusa" [ref=e147] [cursor=pointer]:
+            - /url: /en/prodotti/sofa-rosa
+            - generic [ref=e148]:
+              - img "Divano MPV — Rosa" [ref=e149]
+              - generic [ref=e151]: Disponibile
+              - generic [ref=e152]: "01"
+              - generic [ref=e157]: Scopri
+            - generic [ref=e158]:
+              - paragraph [ref=e159]: Rosa
+              - heading "Divano MPV — Rosa" [level=3] [ref=e160]
+              - generic [ref=e161]:
+                - generic [ref=e162]: 4500,00 €
+                - generic [ref=e163]: IVA inclusa
+          - link "Divano MPV — Verde Su Ordinazione Scopri Verde Salvia Divano MPV — Verde 3800,00 € IVA inclusa" [ref=e165] [cursor=pointer]:
+            - /url: /en/prodotti/sofa-verde
+            - generic [ref=e166]:
+              - img "Divano MPV — Verde" [ref=e167]
+              - generic [ref=e169]: Su Ordinazione
+              - generic [ref=e170]: "02"
+              - generic [ref=e175]: Scopri
+            - generic [ref=e176]:
+              - paragraph [ref=e177]: Verde Salvia
+              - heading "Divano MPV — Verde" [level=3] [ref=e178]
+              - generic [ref=e179]:
+                - generic [ref=e180]: 3800,00 €
+                - generic [ref=e181]: IVA inclusa
+        - generic [ref=e182]:
+          - button "Go to slide 1" [ref=e183] [cursor=pointer]
+          - button "Go to slide 2" [ref=e184] [cursor=pointer]
+  - contentinfo [ref=e185]:
+    - generic [ref=e187]:
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - generic [ref=e190]:
+            - img "MPV Italia" [ref=e193]
+            - generic [ref=e194]:
+              - generic [ref=e195]: MPV
+              - generic [ref=e196]: Italia
+          - paragraph [ref=e197]: Luxury furniture for pets. Italian handcrafted sofas designed for your pet's comfort and your home's elegance.
+          - paragraph [ref=e198]: Made in Italy · since 2024
+        - generic [ref=e199]:
+          - heading "Collection" [level=4] [ref=e200]
+          - list [ref=e201]:
+            - listitem [ref=e202]:
+              - link "MPV Sofa — Black" [ref=e203] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-negro
+            - listitem [ref=e204]:
+              - link "MPV Sofa — Pink" [ref=e205] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-rosa
+            - listitem [ref=e206]:
+              - link "MPV Sofa — Green" [ref=e207] [cursor=pointer]:
+                - /url: /en/prodotti/sofa-verde
+        - generic [ref=e208]:
+          - heading "Contact" [level=4] [ref=e209]
+          - list [ref=e210]:
+            - listitem [ref=e211]:
+              - link "info@mpvitalia.it" [ref=e212] [cursor=pointer]:
+                - /url: mailto:info@mpvitalia.it
+            - listitem [ref=e213]:
+              - link "spedizioni@mpvitalia.it" [ref=e214] [cursor=pointer]:
+                - /url: mailto:spedizioni@mpvitalia.it
+            - listitem [ref=e215]:
+              - text: MPV Italia
+              - text: Via Artigianato, 1 — Milano
+      - generic [ref=e216]:
+        - paragraph [ref=e217]: © 2026 MPV Italia. All rights reserved.
+        - generic [ref=e218]:
+          - radiogroup "Lingua / Language / Idioma" [ref=e219]:
+            - radio "Italiano" [ref=e221] [cursor=pointer]: IT
+            - radio "English" [checked] [ref=e224] [cursor=pointer]: EN
+            - radio "Español" [ref=e227] [cursor=pointer]: ES
+          - generic [ref=e228]:
+            - link "Privacy Policy" [ref=e229] [cursor=pointer]:
+              - /url: https://www.iubenda.com/privacy-policy/your_id
+            - generic [ref=e230]: ·
+            - link "Cookie Policy" [ref=e231] [cursor=pointer]:
+              - /url: https://www.iubenda.com/cookie-policy/your_id
+            - generic [ref=e232]: ·
+            - link "Diritto di Recesso" [ref=e233] [cursor=pointer]:
+              - /url: /en/recesso/modulo
+  - generic [ref=e235]:
+    - paragraph [ref=e237]:
+      - text: We use technical cookies and, with your consent, profiling cookies to improve your experience. For more information, see our
+      - link "Privacy Policy" [ref=e238] [cursor=pointer]:
+        - /url: https://www.iubenda.com/privacy-policy/your_id
+      - text: .
+    - generic [ref=e239]:
+      - button "Reject All" [ref=e240] [cursor=pointer]
+      - button "Accept All" [ref=e241] [cursor=pointer]
+  - button "Open chat" [ref=e242] [cursor=pointer]:
+    - img [ref=e243]
+  - generic "Notifications"
+  - alert [ref=e245]

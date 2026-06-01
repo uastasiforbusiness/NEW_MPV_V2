@@ -46,6 +46,16 @@ export default function InvoiceDeliveryEmail({
           <Heading style={h1}>{heading}</Heading>
           <Text style={text}>{greeting}</Text>
           <Text style={text}>{body}</Text>
+          
+          <Section style={detailsContainer}>
+            <Text style={detailsHeader}>Dettagli Documento</Text>
+            <Text style={detailsText}>
+              <strong>Cliente:</strong> {customerName}<br />
+              <strong>Numero Fattura:</strong> {invoiceNumber}<br />
+              <strong>ID Ordine:</strong> {orderId}
+            </Text>
+          </Section>
+
           <Section style={buttonContainer}>
             <Button href={downloadUrl} style={button}>
               {downloadButton}
@@ -108,4 +118,29 @@ const footerStyle = {
   marginTop: "32px",
   paddingTop: "16px",
   borderTop: "1px solid #E5E5E5",
+};
+
+const detailsContainer = {
+  backgroundColor: "#F5F0E8",
+  padding: "16px",
+  borderRadius: "6px",
+  border: "1px solid #E7E5DF",
+  margin: "24px 0",
+};
+
+const detailsHeader = {
+  color: "#1A1A1A",
+  fontFamily: 'Inter, "Helvetica Neue", Arial, sans-serif',
+  fontSize: "14px",
+  fontWeight: "600",
+  textTransform: "uppercase" as const,
+  letterSpacing: "0.05em",
+  marginBottom: "8px",
+};
+
+const detailsText = {
+  color: "#403E3A",
+  fontSize: "14px",
+  lineHeight: "1.6",
+  margin: "0",
 };

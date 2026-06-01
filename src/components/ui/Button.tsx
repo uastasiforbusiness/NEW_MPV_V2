@@ -61,7 +61,6 @@ function getClassName(base: ButtonBaseProps & { disabled?: boolean; className?: 
   const {
     variant = "primary",
     size = "md",
-    isLoading = false,
     fullWidth = false,
     className = "",
   } = base;
@@ -112,8 +111,9 @@ function ButtonInner<C extends ElementType = "button">(
 
   // Render as Link when href is provided (native i18n navigation)
   if (href && !as) {
-    const { href: _, children, ...rest_ } = props as Record<string, unknown>;
+    const { children, ...rest_ } = props as Record<string, unknown>;
     stripButtonProps(rest_ as Record<string, unknown>);
+    delete (rest_ as Record<string, unknown>).href;
     delete (rest_ as Record<string, unknown>).as;
     return (
       <Link
@@ -129,8 +129,9 @@ function ButtonInner<C extends ElementType = "button">(
   }
 
   if (as === "a") {
-    const { as: _, children, ...rest_ } = props as Record<string, unknown>;
+    const { children, ...rest_ } = props as Record<string, unknown>;
     stripButtonProps(rest_ as Record<string, unknown>);
+    delete (rest_ as Record<string, unknown>).as;
     return (
       <a
         ref={ref as React.Ref<HTMLAnchorElement>}
@@ -144,9 +145,10 @@ function ButtonInner<C extends ElementType = "button">(
   }
 
   if (as === undefined || as === "button") {
-    const { as: _, children, ...rest_ } = props as Record<string, unknown>;
+    const { children, ...rest_ } = props as Record<string, unknown>;
     const disabled = !!(props as Record<string, unknown>).disabled;
     stripButtonProps(rest_ as Record<string, unknown>);
+    delete (rest_ as Record<string, unknown>).as;
     delete (rest_ as Record<string, unknown>).disabled;
     delete (rest_ as Record<string, unknown>).href;
     return (
@@ -164,8 +166,9 @@ function ButtonInner<C extends ElementType = "button">(
 
   // Custom component (e.g. external advanced usage)
   const Component = as as React.ElementType;
-  const { as: _, children, ...rest_ } = props as Record<string, unknown>;
+  const { children, ...rest_ } = props as Record<string, unknown>;
   stripButtonProps(rest_ as Record<string, unknown>);
+  delete (rest_ as Record<string, unknown>).as;
 
   return (
     <Component

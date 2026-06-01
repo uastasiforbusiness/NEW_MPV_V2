@@ -110,7 +110,7 @@ describe("LanguageSwitcher", () => {
   /* ────────────── Compact variant separators ────────────── */
 
   it("renders separator elements between items in compact variant", () => {
-    const { container } = render(<LanguageSwitcher variant="compact" />);
+    render(<LanguageSwitcher variant="compact" />);
 
     // Compact variant uses border/rounded-full styling instead of separators
     const group = screen.getByRole("radiogroup");

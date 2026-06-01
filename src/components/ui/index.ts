@@ -5,3 +5,4 @@ export { Modal } from "./Modal";
 export { ToastProvider, useToast } from "./Toast";
 export { Breadcrumb } from "./Breadcrumb";
 export { Accordion } from "./Accordion";
+export { Skeleton, ProductCardSkeleton, PDPSkeleton, PLPSkeleton } from "./Skeleton";
